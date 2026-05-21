@@ -17,7 +17,10 @@ need_cmd() {
 load_config() {
   if [ -f "$CONFIG_FILE" ]; then
     # shellcheck disable=SC1090
-    . "$CONFIG_FILE"
+    case "$CONFIG_FILE" in
+      */*) . "$CONFIG_FILE" ;;
+      *) . "./$CONFIG_FILE" ;;
+    esac
   fi
 }
 
