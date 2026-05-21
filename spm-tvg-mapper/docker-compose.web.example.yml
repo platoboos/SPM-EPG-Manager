@@ -1,0 +1,16 @@
+services:
+  spm-tvg-mapper:
+    build: .
+    container_name: spm-tvg-mapper
+    restart: unless-stopped
+    ports:
+      - "8099:8099"
+    environment:
+      - WEB_PORT=8099
+      - SPM_CONFIG=/app/config/spm_targets.web.json
+      - SPM_REPORTS=/app/reports
+      - SPM_USERNAME=${SPM_USERNAME}
+      - SPM_PASSWORD=${SPM_PASSWORD}
+    volumes:
+      - ./config:/app/config
+      - ./reports:/app/reports

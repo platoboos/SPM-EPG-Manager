@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "description": "Beispiel-Konfiguration fuer den externen Node-Runner. Fuer Browser-Console-Nutzung werden die Werte im Script gesetzt.",
+    "profileHandling": "SPM profiles are portal-specific. Use ENSURE_PROFILE/PROFILE_NAME in browser script to create or reuse one profile per portal."
+  },
+  "targets": [
+    {
+      "name": "Test SPM",
+      "baseUrl": "http://10.10.100.117:8000",
+      "playlistType": "tv",
+      "profileName": "spm",
+      "pageSize": 1000,
+      "keepExistingTvgIds": true,
+      "cookieEnv": "SPM_COOKIE",
+      "login": {
+        "enabled": false,
+        "url": "/api/auth/login",
+        "method": "POST",
+        "contentType": "json",
+        "usernameEnv": "SPM_USERNAME",
+        "passwordEnv": "SPM_PASSWORD",
+        "usernameField": "username",
+        "passwordField": "password",
+        "extraFields": {}
+      },
+      "profileIdByPortalId": {
+        "3": 1
+      }
+    }
+  ]
+}

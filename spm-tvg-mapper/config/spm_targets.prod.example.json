@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "description": "Beispiel fuer einen produktiven SPM. Datei kopieren und Werte anpassen.",
+    "note": "Passwoerter gehoeren nicht in diese Datei, sondern in .env.local oder Umgebungsvariablen."
+  },
+  "targets": [
+    {
+      "name": "Produktiv SPM 1",
+      "baseUrl": "http://SPM-IP-ODER-HOSTNAME:8000",
+      "playlistType": "tv",
+      "profileName": "spm",
+      "pageSize": 1000,
+      "keepExistingTvgIds": true,
+      "login": {
+        "enabled": true,
+        "url": "/api/auth/login",
+        "method": "POST",
+        "contentType": "json",
+        "usernameEnv": "SPM_USERNAME",
+        "passwordEnv": "SPM_PASSWORD",
+        "usernameField": "username",
+        "passwordField": "password",
+        "extraFields": {}
+      },
+      "profileIdByPortalId": {}
+    }
+  ]
+}

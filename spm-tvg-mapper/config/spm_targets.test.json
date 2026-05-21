@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "description": "Test-SPM Konfiguration fuer den externen Runner.",
+    "note": "Diese Datei wird von den PowerShell-Startern genutzt."
+  },
+  "targets": [
+    {
+      "name": "Test SPM",
+      "baseUrl": "http://10.10.100.117:8000",
+      "playlistType": "tv",
+      "profileName": "spm",
+      "pageSize": 1000,
+      "keepExistingTvgIds": true,
+      "cookieEnv": "SPM_COOKIE",
+      "login": {
+        "enabled": true,
+        "url": "/api/auth/login",
+        "method": "POST",
+        "contentType": "json",
+        "usernameEnv": "SPM_USERNAME",
+        "passwordEnv": "SPM_PASSWORD",
+        "usernameField": "username",
+        "passwordField": "password",
+        "extraFields": {}
+      },
+      "profileIdByPortalId": {
+        "3": 1
+      }
+    }
+  ]
+}

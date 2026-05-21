@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "description": "WebUI-Konfiguration. Nach spm_targets.web.json kopieren und baseUrl anpassen.",
+    "note": "Benutzername und Passwort werden per Docker-Environment gesetzt."
+  },
+  "targets": [
+    {
+      "name": "Test SPM",
+      "baseUrl": "http://10.10.100.117:8000",
+      "playlistType": "tv",
+      "profileName": "spm",
+      "pageSize": 1000,
+      "keepExistingTvgIds": true,
+      "login": {
+        "enabled": true,
+        "url": "/api/auth/login",
+        "method": "POST",
+        "contentType": "json",
+        "usernameEnv": "SPM_USERNAME",
+        "passwordEnv": "SPM_PASSWORD",
+        "usernameField": "username",
+        "passwordField": "password",
+        "extraFields": {}
+      },
+      "profileIdByPortalId": {
+        "3": 1
+      }
+    }
+  ]
+}

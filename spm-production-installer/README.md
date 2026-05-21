@@ -1,0 +1,124 @@
+# SPM Production Installer
+
+Dieser Ordner ist als sauberes Installationspaket fuer Produktiv- oder neue SPM-Systeme gedacht.
+
+Er installiert:
+
+- SPM TVG Mapper WebUI
+- Mapper-Konfiguration fuer ein SPM-System
+- SPM Login per Benutzer/Passwort
+- optional EasyEPG `settings.json`
+
+## Empfehlung
+
+Ich wuerde es so aufbauen:
+
+1. **GitHub**
+   - Fuer Code, Installer und Mapper-Projekt.
+   - Kann privat oder oeffentlich sein.
+   - Keine Passwoerter, keine `.env`, keine geheimen URLs committen.
+
+2. **Unraid**
+   - Fuer private Dateien, falls gewuenscht.
+   - Zum Beispiel EasyEPG `settings.json`.
+   - Vorteil: bleibt zuhause, nicht in GitHub.
+
+Der Installer kann den Mapper von GitHub laden und optional die EasyEPG-Settings von Unraid.
+
+## Einzeiler mit Rueckfragen
+
+Auf dem Zielhost:
+
+```bash
+curl -fsSL https://DEINE-URL/install.sh -o /tmp/spm-install.sh && sh /tmp/spm-install.sh
+```
+
+Das Script fragt dann:
+
+- Mapper Archiv-URL
+- SPM Basis-URL
+- SPM Benutzername
+- SPM Passwort
+
+## Einzeiler komplett automatisch
+
+Beispiel:
+
+```bash
+curl -fsSL https://DEINE-URL/install.sh | \
+MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
+SPM_BASE_URL="http://10.10.100.117:8000" \
+SPM_TARGET_NAME="Produktiv SPM" \
+SPM_USERNAME="dein_benutzer" \
+SPM_PASSWORD="dein_passwort" \
+sh
+```
+
+Wichtig: Das Passwort steht dabei in der Shell-History. Sicherer ist die Variante mit Rueckfragen.
+
+## Mit EasyEPG settings.json von Unraid
+
+Beispiel:
+
+```bash
+curl -fsSL https://DEINE-URL/install.sh | \
+MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
+SPM_BASE_URL="http://10.10.100.117:8000" \
+SPM_USERNAME="dein_benutzer" \
+SPM_PASSWORD="dein_passwort" \
+EASYEPG_SETTINGS_URL="http://UNRAID-IP/easyepg/settings.json" \
+EASYEPG_CONTAINER="easyepg" \
+EASYEPG_SETTINGS_PATH="/opt/EasyEPG/settings.json" \
+sh
+```
+
+Der Installer macht vorher ein Backup der vorhandenen EasyEPG-Datei.
+
+## Wenn EasyEPG settings.json auf dem Host liegt
+
+Beispiel fuer Unraid Appdata:
+
+```bash
+curl -fsSL https://DEINE-URL/install.sh | \
+MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
+SPM_BASE_URL="http://10.10.100.117:8000" \
+SPM_USERNAME="dein_benutzer" \
+SPM_PASSWORD="dein_passwort" \
+EASYEPG_SETTINGS_URL="http://UNRAID-IP/easyepg/settings.json" \
+EASYEPG_HOST_SETTINGS_PATH="/mnt/user/appdata/easyepg/settings.json" \
+sh
+```
+
+## Lokaler Test
+
+Wenn der Ordner schon auf dem Host liegt:
+
+```bash
+cd spm-production-installer
+cp config.example.env .env
+nano .env
+chmod +x install.sh
+./install.sh
+```
+
+## Nach der Installation
+
+Im Browser:
+
+```text
+http://HOST-IP:8099
+```
+
+Dann:
+
+1. `Nur pruefen`
+2. Report kontrollieren
+3. `In SPM speichern`
+
+## Noch offen
+
+Die echten URLs setzen wir erst, wenn du entschieden hast:
+
+- GitHub Repo Name
+- privat oder oeffentlich
+- Unraid Freigabe/URL fuer EasyEPG settings.json
