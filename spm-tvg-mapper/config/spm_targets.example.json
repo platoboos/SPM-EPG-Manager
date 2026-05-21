@@ -6,7 +6,7 @@
   "targets": [
     {
       "name": "Test SPM",
-      "baseUrl": "http://10.10.100.117:8000",
+      "baseUrl": "http://DEINE-SPM-IP:8000",
       "playlistType": "tv",
       "profileName": "spm",
       "pageSize": 1000,

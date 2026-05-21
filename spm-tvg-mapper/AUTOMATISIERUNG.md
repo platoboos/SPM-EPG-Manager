@@ -152,7 +152,7 @@ Wichtig sind:
 
 | Feld | Bedeutung |
 |---|---|
-| `baseUrl` | URL zum SPM, z. B. `http://10.10.100.117:8000` |
+| `baseUrl` | URL zum SPM, z. B. `http://DEINE-SPM-IP:8000` |
 | `profileName` | Profilname, normalerweise `spm` |
 | `playlistType` | Normalerweise `tv` |
 | `portalIds` | Optional. Wenn leer oder nicht gesetzt, werden alle Portale bearbeitet |

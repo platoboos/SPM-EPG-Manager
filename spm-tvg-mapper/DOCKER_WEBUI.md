@@ -48,7 +48,7 @@ nano config/spm_targets.web.json
 Wichtig:
 
 ```json
-"baseUrl": "http://10.10.100.117:8000"
+"baseUrl": "http://DEINE-SPM-IP:8000"
 ```
 
 ## Start
@@ -80,7 +80,7 @@ Beispiel:
   "targets": [
     {
       "name": "SPM Produktiv 1",
-      "baseUrl": "http://10.10.100.120:8000",
+      "baseUrl": "http://DEINE-SPM-IP:8000",
       "playlistType": "tv",
       "profileName": "spm",
       "pageSize": 1000,

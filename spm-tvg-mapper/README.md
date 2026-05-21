@@ -25,7 +25,7 @@ Die kurze Regel lautet:
 
 ## Aktueller Stand
 
-- Test-SPM: `http://10.10.100.117:8000`
+- Test-SPM: `http://DEINE-SPM-IP:8000`
 - Profilname je Portal: `spm`
 - Standardmodus im Browser-Script: `DRY_RUN: true`
 - All-Portal-Modus ist vorbereitet: `APPLY_ALL_PORTALS: true`
@@ -76,20 +76,20 @@ Die kurze Regel lautet:
 Nach dem Apply-Lauf wird pro Portal eine eigene Custom-Playlist genutzt:
 
 ```text
-http://10.10.100.117:8000/proxy/custom/<PortalName>_tv_spm.m3u
+http://DEINE-SPM-IP:8000/proxy/custom/<PortalName>_tv_spm.m3u
 ```
 
 Beispiele aus dem Testsystem:
 
 ```text
-http://10.10.100.117:8000/proxy/custom/204TV_tv_spm.m3u
-http://10.10.100.117:8000/proxy/custom/Sky4K_tv_spm.m3u
+http://DEINE-SPM-IP:8000/proxy/custom/204TV_tv_spm.m3u
+http://DEINE-SPM-IP:8000/proxy/custom/Sky4K_tv_spm.m3u
 ```
 
 Die normale Portal-M3U ohne Custom-Profil bleibt unveraendert:
 
 ```text
-http://10.10.100.117:8000/proxy/<PortalName>_tv.m3u
+http://DEINE-SPM-IP:8000/proxy/<PortalName>_tv.m3u
 ```
 
 ## Neue Portale

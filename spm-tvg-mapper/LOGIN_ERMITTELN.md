@@ -21,7 +21,7 @@ Wir brauchen nur die technischen Namen:
 1. SPM im Browser oeffnen:
 
 ```text
-http://10.10.100.117:8000
+http://DEINE-SPM-IP:8000
 ```
 
 2. Ausloggen, falls du schon eingeloggt bist.
@@ -62,7 +62,7 @@ Content-Type:
 Beispiel:
 
 ```text
-Request URL: http://10.10.100.117:8000/api/login
+Request URL: http://DEINE-SPM-IP:8000/api/login
 Request Method: POST
 Content-Type: application/json
 ```

@@ -1,0 +1,2884 @@
+{
+  "_template_note": "Sanitized EasyEPG template: sessions/auth_data removed, api_key null, private XMLTV URLs removed. Import into EasyEPG and adapt if needed.",
+  "channels": {
+    "tkmd2_262729768197": {
+      "stationId": "262729768197",
+      "name": "Sport 1 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00754-TelekomEishockey1/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 1 - myTeamTV"
+    },
+    "tkmd2_389263912227": {
+      "stationId": "389263912227",
+      "name": "MagentaSport",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00910-MagentaSport/stationLogo_20221114.png"
+      },
+      "tvg-id": "MagentaSport"
+    },
+    "tkmd2_389266472165": {
+      "stationId": "389266472165",
+      "name": "MS Sport",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00873-MyTeamTV-Eishockey8/stationLogo_20221114.png"
+      },
+      "tvg-id": "MS Sport"
+    },
+    "tkmd2_389266472162": {
+      "stationId": "389266472162",
+      "name": "Sport 10 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00808-MyTeamTV-Fuball3/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 10 - myTeamTV"
+    },
+    "tkmd2_389265448063": {
+      "stationId": "389265448063",
+      "name": "Sport 11 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00809-MyTeamTV-Fuball4/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 11 - myTeamTV"
+    },
+    "tkmd2_389265960209": {
+      "stationId": "389265960209",
+      "name": "Sport 12 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00811-MyTeamTV-Fuball5/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 12 - myTeamTV"
+    },
+    "tkmd2_389266472157": {
+      "stationId": "389266472157",
+      "name": "Sport 13 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00812-MyTeamTV-Fuball6/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 13 - myTeamTV"
+    },
+    "tkmd2_389265448067": {
+      "stationId": "389265448067",
+      "name": "Sport 14 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00813-MyTeamTV-Fuball7/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 14 - myTeamTV"
+    },
+    "tkmd2_389266472161": {
+      "stationId": "389266472161",
+      "name": "Sport 15 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/bbl-sd1/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 15 - myTeamTV"
+    },
+    "tkmd2_389265448073": {
+      "stationId": "389265448073",
+      "name": "Sport 16 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/bbl-sd2/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 16 - myTeamTV"
+    },
+    "tkmd2_389264424244": {
+      "stationId": "389264424244",
+      "name": "Sport 17 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/bbl-sd3/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 17 - myTeamTV"
+    },
+    "tkmd2_389263912240": {
+      "stationId": "389263912240",
+      "name": "Sport 18 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00765-TelekomBasketball4/stationLogo_20250107.png"
+      },
+      "tvg-id": "Sport 18 - myTeamTV"
+    },
+    "tkmd2_389264936251": {
+      "stationId": "389264936251",
+      "name": "Sport 2 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00755-TelekomEishockey2/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 2 - myTeamTV"
+    },
+    "tkmd2_389264424230": {
+      "stationId": "389264424230",
+      "name": "Sport 3 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00756-TelekomEishockey3/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 3 - myTeamTV"
+    },
+    "tkmd2_389264424269": {
+      "stationId": "389264424269",
+      "name": "Sport 4 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00761-TelekomEishockey4/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 4 - myTeamTV"
+    },
+    "tkmd2_389263912222": {
+      "stationId": "389263912222",
+      "name": "Sport 5 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00762-TelekomEishockey5/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 5 - myTeamTV"
+    },
+    "tkmd2_389266472167": {
+      "stationId": "389266472167",
+      "name": "Sport 6 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00763-TelekomEishockey6/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 6 - myTeamTV"
+    },
+    "tkmd2_389265960200": {
+      "stationId": "389265960200",
+      "name": "Sport 7 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00764-TelekomEishockey7/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 7 - myTeamTV"
+    },
+    "tkmd2_389264936249": {
+      "stationId": "389264936249",
+      "name": "Sport 8 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00806-MyTeamTV-Fuball1/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 8 - myTeamTV"
+    },
+    "tkmd2_389266472152": {
+      "stationId": "389266472152",
+      "name": "Sport 9 - myTeamTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00807-MyTeamTV-Fuball2/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sport 9 - myTeamTV"
+    },
+    "tkmd2_389266472182": {
+      "stationId": "389266472182",
+      "name": "Crime+Investigation (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00918-CrimeInvestigationSky/stationLogo_20220211.png"
+      },
+      "tvg-id": "CrimeInvestigation.de"
+    },
+    "tkmd2_389264424237": {
+      "stationId": "389264424237",
+      "name": "Sky Sport Bundesliga",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-01/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySportBundesliga.de"
+    },
+    "tkmd2_769865767977": {
+      "stationId": "769865767977",
+      "name": "Sky Sport Bundesliga",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00814-SkySportBundesligaUHD/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389263912236": {
+      "stationId": "389263912236",
+      "name": "Sky Sport F1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00899-SkySportF1/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkySportF1.de"
+    },
+    "tkmd2_389265448065": {
+      "stationId": "389265448065",
+      "name": "123.live",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00895-1-2-3tv/stationLogo_20260420.png"
+      },
+      "tvg-id": "123.tv.de"
+    },
+    "tkmd2_389264936244": {
+      "stationId": "389264936244",
+      "name": "13TH STREET (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/13th-street-sky/stationLogo_20220211.png"
+      },
+      "tvg-id": "13thStreet.de"
+    },
+    "tkmd2_262729768201": {
+      "stationId": "262729768201",
+      "name": "13TH STREET",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/13th-street/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_262730280155": {
+      "stationId": "262730280155",
+      "name": "3sat",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/3sat/stationLogo_20220211.png"
+      },
+      "tvg-id": "3sat.de"
+    },
+    "tkmd2_492496936310": {
+      "stationId": "492496936310",
+      "name": "a.tv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/a.tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "a.tv.de"
+    },
+    "tkmd2_389265960215": {
+      "stationId": "389265960215",
+      "name": "Al Jazeera English",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00940-AlJazeeraEnglish/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_764525608043": {
+      "stationId": "764525608043",
+      "name": "Alarm für Cobra 11 / Balko",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01047-AlarmCobra11Balko/stationLogo_20251216.png"
+      }
+    },
+    "tkmd2_767936040120": {
+      "stationId": "767936040120",
+      "name": "ALEX Berlin",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00785-ALEXBerlin/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492497960285": {
+      "stationId": "492497960285",
+      "name": "allgäu.tv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tv-allgaeu/stationLogo_20220211.png"
+      },
+      "tvg-id": "AllgauTV.de"
+    },
+    "tkmd2_516783656172": {
+      "stationId": "516783656172",
+      "name": "altenburg.tv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00858-altenburgtv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264936264": {
+      "stationId": "389264936264",
+      "name": "Animal Planet",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/animal-planet/stationLogo_20220211.png"
+      },
+      "tvg-id": "AnimalPlanet.de"
+    },
+    "tkmd2_389264936261": {
+      "stationId": "389264936261",
+      "name": "ANIXE HD Serie",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00893-ANIXEHDSerie/stationLogo_20220211.png"
+      },
+      "tvg-id": "AnixeSerie.de"
+    },
+    "tkmd2_389265448050": {
+      "stationId": "389265448050",
+      "name": "ANIXE+",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/anixe-sd/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424233": {
+      "stationId": "389264424233",
+      "name": "ARD-alpha",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/br-alpha/stationLogo_20220211.png"
+      },
+      "tvg-id": "ARD-alpha.de"
+    },
+    "tkmd2_274352679972": {
+      "stationId": "274352679972",
+      "name": "ARTE",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/arte/stationLogo_20220211.png"
+      },
+      "tvg-id": "ARTE.de"
+    },
+    "tkmd2_389265960218": {
+      "stationId": "389265960218",
+      "name": "Asharq News",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00948-AsharqNews/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_488325160190": {
+      "stationId": "488325160190",
+      "name": "ATV Avrupa",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01002-ATVAvrupa/stationLogo_20240109.png"
+      }
+    },
+    "tkmd2_389266472177": {
+      "stationId": "389266472177",
+      "name": "auto motor und sport",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/auto-motor-sport/stationLogo_20220211.png"
+      },
+      "tvg-id": "AutoMotorSport.de"
+    },
+    "tkmd2_389264936253": {
+      "stationId": "389264936253",
+      "name": "AXN Black",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/axn/stationLogo_20230829.png"
+      },
+      "tvg-id": "AXNBlack.de"
+    },
+    "tkmd2_389266472155": {
+      "stationId": "389266472155",
+      "name": "AXN White",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sony-tv/stationLogo_20230829.png"
+      },
+      "tvg-id": "AXNWhite.de"
+    },
+    "tkmd2_750315048280": {
+      "stationId": "750315048280",
+      "name": "Baby TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/baby-tv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492497448194": {
+      "stationId": "492497448194",
+      "name": "Baden TV Süd",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00862-BadenTVSd/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492498984401": {
+      "stationId": "492498984401",
+      "name": "Baden TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00747-BadenTV/stationLogo_20220211.png"
+      },
+      "tvg-id": "BadenTV.de"
+    },
+    "tkmd2_389264936254": {
+      "stationId": "389264936254",
+      "name": "Ballermann TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00950-BallermannTV/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_764524584021": {
+      "stationId": "764524584021",
+      "name": "Bauer sucht Frau",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01049-BauersuchtFrau/stationLogo_20251216.png"
+      }
+    },
+    "tkmd2_516781096167": {
+      "stationId": "516781096167",
+      "name": "BBC News",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/bbc-world/stationLogo_20230406.png"
+      }
+    },
+    "tkmd2_695564328412": {
+      "stationId": "695564328412",
+      "name": "Beate-Uhse.TV (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/beateu-sky/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265960212": {
+      "stationId": "389265960212",
+      "name": "beIN iZ",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00876-beINiZ/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424243": {
+      "stationId": "389264424243",
+      "name": "beIN Movies Turk",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/moviemax-turk/stationLogo_20220211.png"
+      },
+      "tvg-id": "beINMoviesTurk.tr"
+    },
+    "tkmd2_389264936270": {
+      "stationId": "389264936270",
+      "name": "Bergblick",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/planet-tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "Bergblick.de"
+    },
+    "tkmd2_389263912233": {
+      "stationId": "389263912233",
+      "name": "Bibel TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/bibel-tv/stationLogo_20250611.png"
+      },
+      "tvg-id": "BibelTV.de"
+    },
+    "tkmd2_658197032097": {
+      "stationId": "658197032097",
+      "name": "BLK TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01023-BLKTV/stationLogo_20250211.png"
+      }
+    },
+    "tkmd2_389265960211": {
+      "stationId": "389265960211",
+      "name": "Blue Hustler",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/blue-hustler/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264936259": {
+      "stationId": "389264936259",
+      "name": "BonGusto",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/bongusto/stationLogo_20220211.png"
+      },
+      "tvg-id": "BonGusto.de"
+    },
+    "tkmd2_415151144360": {
+      "stationId": "415151144360",
+      "name": "BR Fernsehen Nord",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/br-nord/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_262730792005": {
+      "stationId": "262730792005",
+      "name": "BR Fernsehen Süd",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/br-sued/stationLogo_20241119.png"
+      },
+      "tvg-id": "BRFernsehen.de"
+    },
+    "tkmd2_389263912230": {
+      "stationId": "389263912230",
+      "name": "Cartoon Network (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00891-CartoonNetworkSky/stationLogo_20220211.png"
+      },
+      "tvg-id": "CartoonNetwork.de"
+    },
+    "tkmd2_389264936255": {
+      "stationId": "389264936255",
+      "name": "Cartoon Network",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/cartoon-network/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389266472181": {
+      "stationId": "389266472181",
+      "name": "Cartoonito (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00879-BoomerangSky/stationLogo_20230328.png"
+      },
+      "tvg-id": "Cartoonito.de"
+    },
+    "tkmd2_389265960231": {
+      "stationId": "389265960231",
+      "name": "Cartoonito",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/boomerang/stationLogo_20230328.png"
+      }
+    },
+    "tkmd2_389263912216": {
+      "stationId": "389263912216",
+      "name": "CHANNEL21",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00924-CHANNEL21/stationLogo_20220211.png"
+      },
+      "tvg-id": "Channel21.de"
+    },
+    "tkmd2_767937576117": {
+      "stationId": "767937576117",
+      "name": "Chemnitz Fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00845-ChemnitzFernsehen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_415148584245": {
+      "stationId": "415148584245",
+      "name": "CNBC International",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00967-CNBCInternational/stationLogo_20251216.png"
+      }
+    },
+    "tkmd2_389265960223": {
+      "stationId": "389265960223",
+      "name": "CNN International",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/cnn-international/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265448045": {
+      "stationId": "389265448045",
+      "name": "Comedy Central",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/viva/stationLogo_20220211.png"
+      },
+      "tvg-id": "ComedyCentralVIVA.de"
+    },
+    "tkmd2_389265448071": {
+      "stationId": "389265448071",
+      "name": "Crime+Investigation",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/ae/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389266472178": {
+      "stationId": "389266472178",
+      "name": "Curiosity Channel",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/spiegel-wissen/stationLogo_20230427.png"
+      },
+      "tvg-id": "CuriosityChannel.de"
+    },
+    "tkmd2_259549736360": {
+      "stationId": "259549736360",
+      "name": "Das Erste",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/das-erste/stationLogo_20241119.png"
+      },
+      "tvg-id": "DasErste.de"
+    },
+    "tkmd2_492499496076": {
+      "stationId": "492499496076",
+      "name": "DELUXE MUSIC",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/deluxe-music/stationLogo_20220211.png"
+      },
+      "tvg-id": "DeLuxeMusic.de"
+    },
+    "tkmd2_389263912245": {
+      "stationId": "389263912245",
+      "name": "DF1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/servus-tv/stationLogo_20231220.png"
+      },
+      "tvg-id": "DF1.de"
+    },
+    "tkmd2_389264424250": {
+      "stationId": "389264424250",
+      "name": "Discovery Channel",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/discovery-channel/stationLogo_20220211.png"
+      },
+      "tvg-id": "DiscoveryChannel.de"
+    },
+    "tkmd2_492499496077": {
+      "stationId": "492499496077",
+      "name": "Disney Channel",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/das-vierte/stationLogo_20240318.png"
+      },
+      "tvg-id": "disneychannel.de"
+    },
+    "tkmd2_389265960233": {
+      "stationId": "389265960233",
+      "name": "DMAX",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/dmax/stationLogo_20220211.png"
+      },
+      "tvg-id": "DMax.de"
+    },
+    "tkmd2_389265448057": {
+      "stationId": "389265448057",
+      "name": "DMF",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00938-DeutschesMusikFernsehen/stationLogo_20240528.png"
+      },
+      "tvg-id": "DeutschesMusikFernsehen.de"
+    },
+    "tkmd2_767937064033": {
+      "stationId": "767937064033",
+      "name": "Dresden Fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00846-DresdenFernsehen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492496936307": {
+      "stationId": "492496936307",
+      "name": "ems TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00882-emsTV/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_415150120096": {
+      "stationId": "415150120096",
+      "name": "ERT World",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00968-ERT/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_389264936263": {
+      "stationId": "389264936263",
+      "name": "eSportsONE",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sport1-us-sd/stationLogo_20241203.png"
+      },
+      "tvg-id": "eSports1.de"
+    },
+    "tkmd2_389264424273": {
+      "stationId": "389264424273",
+      "name": "Espreso",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00987-Espreso/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_389265960191": {
+      "stationId": "389265960191",
+      "name": "Euro D",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/euro-d/stationLogo_20220211.png"
+      },
+      "tvg-id": "EuroD.tr"
+    },
+    "tkmd2_389265960201": {
+      "stationId": "389265960201",
+      "name": "Euronews Deutsch",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/euron-d/stationLogo_20230405.png"
+      }
+    },
+    "tkmd2_415150120097": {
+      "stationId": "415150120097",
+      "name": "Euronews English",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00969-EuronewsEnglish/stationLogo_20230405.png"
+      }
+    },
+    "tkmd2_389266472166": {
+      "stationId": "389266472166",
+      "name": "Euronews Italiano",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/euron-i/stationLogo_20230405.png"
+      }
+    },
+    "tkmd2_389265960224": {
+      "stationId": "389265960224",
+      "name": "Euronews Russki",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/euron-rus/stationLogo_20230405.png"
+      }
+    },
+    "tkmd2_274351656125": {
+      "stationId": "274351656125",
+      "name": "Eurosport 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/eurosport/stationLogo_20220211.png"
+      },
+      "tvg-id": "Eurosport1.de"
+    },
+    "tkmd2_274351656128": {
+      "stationId": "274351656128",
+      "name": "Eurosport 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/eurosport-2/stationLogo_20220211.png"
+      },
+      "tvg-id": "Eurosport2.de"
+    },
+    "tkmd2_389266472179": {
+      "stationId": "389266472179",
+      "name": "Eurostar TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/euro-star/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_764249640071": {
+      "stationId": "764249640071",
+      "name": "Fabella",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01061-Fabella/stationLogo_20260126.png"
+      },
+      "tvg-id": "Fabella.de"
+    },
+    "tkmd2_389266472172": {
+      "stationId": "389266472172",
+      "name": "Fashion TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00934-FashionTV/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_736340520423": {
+      "stationId": "736340520423",
+      "name": "Filmgold",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01044-Filmgold/stationLogo_20251113.png"
+      },
+      "tvg-id": "FilmGold.de"
+    },
+    "tkmd2_587598887993": {
+      "stationId": "587598887993",
+      "name": "Fix&Foxi TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01019-FixFoxiTV/stationLogo_20240927.png"
+      },
+      "tvg-id": "FixFoxi.de"
+    },
+    "tkmd2_389265960205": {
+      "stationId": "389265960205",
+      "name": "FOLX MUSIC TELEVISION",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00936-FOLXMUSICTELEVISION/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_463893544181": {
+      "stationId": "463893544181",
+      "name": "France 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00995-France2/stationLogo_20230703.png"
+      }
+    },
+    "tkmd2_389265960237": {
+      "stationId": "389265960237",
+      "name": "France 24 english",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00951-France24english/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_389265960207": {
+      "stationId": "389265960207",
+      "name": "France 24 francais",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00939-France24francais/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_463895080134": {
+      "stationId": "463895080134",
+      "name": "France 3",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00996-France3/stationLogo_20230703.png"
+      }
+    },
+    "tkmd2_516784168005": {
+      "stationId": "516784168005",
+      "name": "France 4",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01011-France4/stationLogo_20240415.png"
+      }
+    },
+    "tkmd2_516781096166": {
+      "stationId": "516781096166",
+      "name": "France 5",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01012-France5/stationLogo_20240415.png"
+      }
+    },
+    "tkmd2_492499496075": {
+      "stationId": "492499496075",
+      "name": "Franken Fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/franken-fernsehen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265448054": {
+      "stationId": "389265448054",
+      "name": "FREEDOM",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00988-FREEDOM/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_492499496084": {
+      "stationId": "492499496084",
+      "name": "Friesischer Rundfunk",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00890-FriesischerRundfunk/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389266472173": {
+      "stationId": "389266472173",
+      "name": "GEO Television",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/geo/stationLogo_20220211.png"
+      },
+      "tvg-id": "GeoTV.de"
+    },
+    "tkmd2_561114664140": {
+      "stationId": "561114664140",
+      "name": "Glück Auf! TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01014-GlckAufTV/stationLogo_20240722.png"
+      }
+    },
+    "tkmd2_754135080288": {
+      "stationId": "754135080288",
+      "name": "Grjngo",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01058-Grjngo/stationLogo_20260121.png"
+      },
+      "tvg-id": "Grjngo.de"
+    },
+    "tkmd2_704010792353": {
+      "stationId": "704010792353",
+      "name": "GüstrowTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01030-GstrowTV/stationLogo_20250630.png"
+      }
+    },
+    "tkmd2_389264424252": {
+      "stationId": "389264424252",
+      "name": "Habertürk TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00885-HaberTrk/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492496936309": {
+      "stationId": "492496936309",
+      "name": "Hamburg 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/hamburg-1/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_695564328413": {
+      "stationId": "695564328413",
+      "name": "Heimatkanal (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/heimat-sky/stationLogo_20220211.png"
+      },
+      "tvg-id": "Heimatkanal.de"
+    },
+    "tkmd2_389263912228": {
+      "stationId": "389263912228",
+      "name": "Heimatkanal",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00841-Heimatkanal/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492499496080": {
+      "stationId": "492499496080",
+      "name": "HGTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00863-HGTV/stationLogo_20220211.png"
+      },
+      "tvg-id": "HGTV.de"
+    },
+    "tkmd2_587599400156": {
+      "stationId": "587599400156",
+      "name": "Hope TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01016-HopeTV/stationLogo_20240815.png"
+      }
+    },
+    "tkmd2_274350120288": {
+      "stationId": "274350120288",
+      "name": "hr-fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/hr/stationLogo_20241119.png"
+      },
+      "tvg-id": "HRFernsehen.de"
+    },
+    "tkmd2_389266472174": {
+      "stationId": "389266472174",
+      "name": "HSE",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/hse-24/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_636955688283": {
+      "stationId": "636955688283",
+      "name": "HT SPOR",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01015-HTSPOR/stationLogo_20241203.png"
+      }
+    },
+    "tkmd2_764523560413": {
+      "stationId": "764523560413",
+      "name": "hundkatzemaus",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01050-hundkatzemaus/stationLogo_20251216.png"
+      }
+    },
+    "tkmd2_415150632112": {
+      "stationId": "415150632112",
+      "name": "Imearth",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00993-Imearth/stationLogo_20230323.png"
+      }
+    },
+    "tkmd2_389264936278": {
+      "stationId": "389264936278",
+      "name": "iTVN",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/itvn/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492497960284": {
+      "stationId": "492497960284",
+      "name": "JenaTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00989-JenaTV/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_695563816191": {
+      "stationId": "695563816191",
+      "name": "Jukebox (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/jukebox-sky/stationLogo_20220211.png"
+      },
+      "tvg-id": "Jukebox.de"
+    },
+    "tkmd2_389263912248": {
+      "stationId": "389263912248",
+      "name": "Jukebox",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rck-tv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_662243367962": {
+      "stationId": "662243367962",
+      "name": "Juwelo",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01025-Juwelo/stationLogo_20250402.png"
+      },
+      "tvg-id": "JuweloTV.de"
+    },
+    "tkmd2_389265960229": {
+      "stationId": "389265960229",
+      "name": "K-TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/k-tv/stationLogo_20221114.png"
+      },
+      "tvg-id": "KTV.de"
+    },
+    "tkmd2_389264424231": {
+      "stationId": "389264424231",
+      "name": "Kabel Eins CLASSICS",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/kabel-1-classics/stationLogo_20220211.png"
+      },
+      "tvg-id": "KabelEinsClassic.de"
+    },
+    "tkmd2_389263912238": {
+      "stationId": "389263912238",
+      "name": "Kabel Eins Doku",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00773-kabeleinsDoku/stationLogo_20220211.png"
+      },
+      "tvg-id": "KabelEinsDoku.de"
+    },
+    "tkmd2_274350120289": {
+      "stationId": "274350120289",
+      "name": "Kabel Eins",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/kabel-1/stationLogo_20220211.png"
+      },
+      "tvg-id": "KabelEins.de"
+    },
+    "tkmd2_389266472176": {
+      "stationId": "389266472176",
+      "name": "Kanal 7",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/kanal-7/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_262281768126": {
+      "stationId": "262281768126",
+      "name": "KiKA",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/kika/stationLogo_20220211.png"
+      },
+      "tvg-id": "Kika.de"
+    },
+    "tkmd2_389265448069": {
+      "stationId": "389265448069",
+      "name": "Kinomir",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/nashe-kino/stationLogo_20220211.png"
+      },
+      "tvg-id": "Kinomir.ru"
+    },
+    "tkmd2_389263912223": {
+      "stationId": "389263912223",
+      "name": "KinoweltTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/kinowelt-tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "Kinowelt.de"
+    },
+    "tkmd2_736344616035": {
+      "stationId": "736344616035",
+      "name": "KultKrimi",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01042-KultKrimi/stationLogo_20251113.png"
+      }
+    },
+    "tkmd2_698208807980": {
+      "stationId": "698208807980",
+      "name": "kulturmd",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01029-kulturmd/stationLogo_20250611.png"
+      }
+    },
+    "tkmd2_767936552360": {
+      "stationId": "767936552360",
+      "name": "L-TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00742-L-TV/stationLogo_20260420.png"
+      }
+    },
+    "tkmd2_738497064302": {
+      "stationId": "738497064302",
+      "name": "Landlust TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01040-LandlustTV/stationLogo_20251113.png"
+      }
+    },
+    "tkmd2_516782120054": {
+      "stationId": "516782120054",
+      "name": "lausitz.tv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01010-lausitztv/stationLogo_20240418.png"
+      }
+    },
+    "tkmd2_492498984400": {
+      "stationId": "492498984400",
+      "name": "LAUSITZWELLE",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00897-LAUSITZWELLE/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_767936552361": {
+      "stationId": "767936552361",
+      "name": "Leipzig Fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00847-LeipzigFernsehen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_658197544149": {
+      "stationId": "658197544149",
+      "name": "Lilo.TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01022-LiloTV/stationLogo_20250211.png"
+      }
+    },
+    "tkmd2_389265960242": {
+      "stationId": "389265960242",
+      "name": "Lust pur",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/lust-pur/stationLogo_20220211.png"
+      },
+      "tvg-id": "LustPur.de"
+    },
+    "tkmd2_389263912220": {
+      "stationId": "389263912220",
+      "name": "Magenta Musik 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00802-MagentaMusik1/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424236": {
+      "stationId": "389264424236",
+      "name": "Magenta Musik 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00803-MagentaMusik2/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265448044": {
+      "stationId": "389265448044",
+      "name": "MagentaTV Info",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/entertain-info/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265448049": {
+      "stationId": "389265448049",
+      "name": "Marco Polo TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00935-MarcoPoloTV/stationLogo_20220211.png"
+      },
+      "tvg-id": "MarcoPoloTV.de"
+    },
+    "tkmd2_492497960283": {
+      "stationId": "492497960283",
+      "name": "MDF.1 Fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00898-MDF1Fernsehen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_415149608151": {
+      "stationId": "415149608151",
+      "name": "MDR-Fernsehen Sachsen-Anhalt",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/mdr-s-anhalt/stationLogo_20220211.png"
+      },
+      "tvg-id": "MDRS-Anhalt.de"
+    },
+    "tkmd2_274352168018": {
+      "stationId": "274352168018",
+      "name": "MDR-Fernsehen Sachsen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/mdr-sachsen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_415149608108": {
+      "stationId": "415149608108",
+      "name": "MDR-Fernsehen Thüringen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/mdr-thueringen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389266472185": {
+      "stationId": "389266472185",
+      "name": "MOMENTS",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00888-DABEI/stationLogo_20260330.png"
+      }
+    },
+    "tkmd2_389263912234": {
+      "stationId": "389263912234",
+      "name": "More Than Sports TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00909-MoreThanSportsTV/stationLogo_20220211.png"
+      },
+      "tvg-id": "MorethanSportsTV.de"
+    },
+    "tkmd2_389265448047": {
+      "stationId": "389265448047",
+      "name": "Motorvision+",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00795-MOTORVISIONTV/stationLogo_20230907.png"
+      },
+      "tvg-id": "Motorvision.de"
+    },
+    "tkmd2_764249128121": {
+      "stationId": "764249128121",
+      "name": "Moviedome",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01062-Moviedome/stationLogo_20260126.png"
+      }
+    },
+    "tkmd2_746148392381": {
+      "stationId": "746148392381",
+      "name": "MS GOLF 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01051-MSGOLF1/stationLogo_20260105.png"
+      },
+      "tvg-id": "MS_Golf_1.de"
+    },
+    "tkmd2_746150440202": {
+      "stationId": "746150440202",
+      "name": "MS GOLF 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01052-MSGOLF2/stationLogo_20260105.png"
+      },
+      "tvg-id": "MS_Golf_2.de"
+    },
+    "tkmd2_389265960221": {
+      "stationId": "389265960221",
+      "name": "MTV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/mtv-hd/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492498472231": {
+      "stationId": "492498472231",
+      "name": "münchen.tv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/muenchen.tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "MunchenTV.de"
+    },
+    "tkmd2_389264936281": {
+      "stationId": "389264936281",
+      "name": "N24 Doku",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00772-N24Doku/stationLogo_20220211.png"
+      },
+      "tvg-id": "N24Doku.de"
+    },
+    "tkmd2_754136616350": {
+      "stationId": "754136616350",
+      "name": "NARUTO",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01055-NARUTO/stationLogo_20260126.png"
+      }
+    },
+    "tkmd2_695561768146": {
+      "stationId": "695561768146",
+      "name": "National Geographic (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01035-NationalGeographicSky/stationLogo_20220211.png"
+      },
+      "tvg-id": "NatGeoHD.de"
+    },
+    "tkmd2_701488168394": {
+      "stationId": "701488168394",
+      "name": "National Geographic Wild (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01036-NationalGeographicWildSky/stationLogo_20250728.png"
+      }
+    },
+    "tkmd2_389263912244": {
+      "stationId": "389263912244",
+      "name": "National Geographic Wild",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00760-NATGEOWILD/stationLogo_20220211.png"
+      },
+      "tvg-id": "NatGeoWild.de"
+    },
+    "tkmd2_274351656127": {
+      "stationId": "274351656127",
+      "name": "National Geographic",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/national-geographic/stationLogo_20220211.png"
+      },
+      "tvg-id": "NatGeoHD.de "
+    },
+    "tkmd2_415148584251": {
+      "stationId": "415148584251",
+      "name": "NDR Fernsehen Hamburg",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/ndr-hamburg/stationLogo_20241210.png"
+      }
+    },
+    "tkmd2_415149608154": {
+      "stationId": "415149608154",
+      "name": "NDR Fernsehen Mecklenburg-Vorpommern",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/ndr-meckl.-vorpommer/stationLogo_20241210.png"
+      }
+    },
+    "tkmd2_274352679975": {
+      "stationId": "274352679975",
+      "name": "NDR Fernsehen Niedersachsen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/ndr/stationLogo_20241210.png"
+      },
+      "tvg-id": "NDRFernsehen.de"
+    },
+    "tkmd2_415149608155": {
+      "stationId": "415149608155",
+      "name": "NDR Fernsehen Schleswig-Holstein",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/ndr-schleswig-holste/stationLogo_20241210.png"
+      }
+    },
+    "tkmd2_389265960198": {
+      "stationId": "389265960198",
+      "name": "Nick Jr. (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00887-NickJrSky/stationLogo_20240212.png"
+      },
+      "tvg-id": "NickJr.de"
+    },
+    "tkmd2_389265960216": {
+      "stationId": "389265960216",
+      "name": "Nick Jr.",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/nick-jr/stationLogo_20240212.png"
+      }
+    },
+    "tkmd2_389265960222": {
+      "stationId": "389265960222",
+      "name": "Nick/Comedy Central+1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/nickcc/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265448075": {
+      "stationId": "389265448075",
+      "name": "Nicktoons (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00889-NicktoonsSky/stationLogo_20240229.png"
+      },
+      "tvg-id": "Nicktoons.de"
+    },
+    "tkmd2_492497448195": {
+      "stationId": "492497448195",
+      "name": "NIEDERBAYERN TV Deggendorf - Straubing",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/donau-tv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492499496083": {
+      "stationId": "492499496083",
+      "name": "NIEDERBAYERN TV Landshut",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/isar-tv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492497448197": {
+      "stationId": "492497448197",
+      "name": "NIEDERBAYERN TV Passau",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/trp1/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389263912217": {
+      "stationId": "389263912217",
+      "name": "NITRO",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-nitro/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTLNitro.de"
+    },
+    "tkmd2_492499496081": {
+      "stationId": "492499496081",
+      "name": "NRWision",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00874-nrwision/stationLogo_20231109.png"
+      }
+    },
+    "tkmd2_274352168016": {
+      "stationId": "274352168016",
+      "name": "ntv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/n-tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "ntv.de"
+    },
+    "tkmd2_492498472233": {
+      "stationId": "492498472233",
+      "name": "Oberpfalz TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/oberpfalz-tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "OberpfalzTV.de"
+    },
+    "tkmd2_492499496085": {
+      "stationId": "492499496085",
+      "name": "OK Weinstraße",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00853-OKWeinstrasse/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492498984397": {
+      "stationId": "492498984397",
+      "name": "OK:TV Mainz",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00852-OKTVMainz/stationLogo_20241002.png"
+      }
+    },
+    "tkmd2_492498984399": {
+      "stationId": "492498984399",
+      "name": "OK4",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00851-OK4/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492498984398": {
+      "stationId": "492498984398",
+      "name": "OK54 Trier",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00842-OK54Trier/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424248": {
+      "stationId": "389264424248",
+      "name": "ONE MUSIC TELEVISION",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00954-ONEMUSICTELEVISION/stationLogo_20221114.png"
+      },
+      "tvg-id": "OneMusicTelevision.de"
+    },
+    "tkmd2_389264424246": {
+      "stationId": "389264424246",
+      "name": "ONE",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/einsfesti/stationLogo_20220211.png"
+      },
+      "tvg-id": "One.de"
+    },
+    "tkmd2_389264936272": {
+      "stationId": "389264936272",
+      "name": "OstWest",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtvi/stationLogo_20220211.png"
+      },
+      "tvg-id": "OstWest.ru"
+    },
+    "tkmd2_389264424268": {
+      "stationId": "389264424268",
+      "name": "OUTtv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00960-OUTtv/stationLogo_20221114.png"
+      },
+      "tvg-id": "OUTtv.de"
+    },
+    "tkmd2_389265960199": {
+      "stationId": "389265960199",
+      "name": "Penthouse Passion",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/penthouse/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_262729768199": {
+      "stationId": "262729768199",
+      "name": "phoenix",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/phoenix/stationLogo_20240820.png"
+      },
+      "tvg-id": "phoenix.de"
+    },
+    "tkmd2_389264936271": {
+      "stationId": "389264936271",
+      "name": "Playboy Europe",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/playboy-europe/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_274351656121": {
+      "stationId": "274351656121",
+      "name": "ProSieben FUN",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/pro7-fun/stationLogo_20220211.png"
+      },
+      "tvg-id": "ProSiebenFun.de"
+    },
+    "tkmd2_389264424238": {
+      "stationId": "389264424238",
+      "name": "ProSieben MAXX",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/pro7-maxx/stationLogo_20220211.png"
+      },
+      "tvg-id": "ProSiebenMaxx.de"
+    },
+    "tkmd2_274352679970": {
+      "stationId": "274352679970",
+      "name": "ProSieben",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/pro7/stationLogo_20220211.png"
+      },
+      "tvg-id": "ProSieben.de"
+    },
+    "tkmd2_492496936305": {
+      "stationId": "492496936305",
+      "name": "ProSiebenSat.1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00914-ProSiebenSat1UHD/stationLogo_20220211.png"
+      },
+      "tvg-id": "UHD1.de"
+    },
+    "tkmd2_669655079976": {
+      "stationId": "669655079976",
+      "name": "QVC ZWEI",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01024-QVCZWEI/stationLogo_20250417.png"
+      }
+    },
+    "tkmd2_389264424227": {
+      "stationId": "389264424227",
+      "name": "QVC",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/qvc/stationLogo_20220211.png"
+      },
+      "tvg-id": "QVC.de"
+    },
+    "tkmd2_274352679971": {
+      "stationId": "274352679971",
+      "name": "Radio Bremen TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/radio-bremen-tv/stationLogo_20240820.png"
+      },
+      "tvg-id": "RadioBremen.de"
+    },
+    "tkmd2_389265960214": {
+      "stationId": "389265960214",
+      "name": "Rai 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rai-uno/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265960195": {
+      "stationId": "389265960195",
+      "name": "Rai 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rai-due/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264936267": {
+      "stationId": "389264936267",
+      "name": "Rai 3",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rai-tre/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_662243880190": {
+      "stationId": "662243880190",
+      "name": "RAN1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01021-RAN1/stationLogo_20241203.png"
+      }
+    },
+    "tkmd2_274351656123": {
+      "stationId": "274351656123",
+      "name": "rbb fernsehen Berlin",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rbb-berlin/stationLogo_20241119.png"
+      },
+      "tvg-id": "rbbBerlin.de"
+    },
+    "tkmd2_415148584246": {
+      "stationId": "415148584246",
+      "name": "rbb fernsehen Brandenburg",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rbb-brandenburg/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_561123367987": {
+      "stationId": "561123367987",
+      "name": "RBW",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01013-RBW/stationLogo_20240722.png"
+      }
+    },
+    "tkmd2_389264936262": {
+      "stationId": "389264936262",
+      "name": "Red Bull TV Motorsport",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00902-ServusTVMotorsport/stationLogo_20250804.png"
+      }
+    },
+    "tkmd2_389265960225": {
+      "stationId": "389265960225",
+      "name": "Red Bull TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00907-RedBullTV/stationLogo_20220211.png"
+      },
+      "tvg-id": "RedBullTV.de"
+    },
+    "tkmd2_492499496082": {
+      "stationId": "492499496082",
+      "name": "Regio TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00839-RegioTV/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492499496079": {
+      "stationId": "492499496079",
+      "name": "Rennsteig.TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00837-RennsteigTV/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492497960282": {
+      "stationId": "492497960282",
+      "name": "RFH Regionalfernsehen Harz",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00896-RFHRegionalfernsehenHarz/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492497448196": {
+      "stationId": "492497448196",
+      "name": "RFO",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rfo/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492498984402": {
+      "stationId": "492498984402",
+      "name": "rheinlOKal",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00843-OK-TVLudwigshafen/stationLogo_20251013.png"
+      }
+    },
+    "tkmd2_587598887992": {
+      "stationId": "587598887992",
+      "name": "RiC.today",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01018-RiCtoday/stationLogo_20240927.png"
+      }
+    },
+    "tkmd2_389264424254": {
+      "stationId": "389264424254",
+      "name": "RiC",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00942-RiC/stationLogo_20221114.png"
+      },
+      "tvg-id": "RiC.de"
+    },
+    "tkmd2_695561768145": {
+      "stationId": "695561768145",
+      "name": "Romance TV (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00840-RomanceTVSky/stationLogo_20220211.png"
+      },
+      "tvg-id": "Romance.de"
+    },
+    "tkmd2_389264424262": {
+      "stationId": "389264424262",
+      "name": "Romance TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/romance-tv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_754138152287": {
+      "stationId": "754138152287",
+      "name": "Royalworld",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01059-Royalworld/stationLogo_20260121.png"
+      }
+    },
+    "tkmd2_481691176161": {
+      "stationId": "481691176161",
+      "name": "RTL Bayern",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00999-RTLBayern/stationLogo_20230410.png"
+      }
+    },
+    "tkmd2_415149608157": {
+      "stationId": "415149608157",
+      "name": "RTL Bremen & Niedersachsen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-hb-nds/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_274350120290": {
+      "stationId": "274350120290",
+      "name": "RTL Crime",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-crime/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTLCrime.de"
+    },
+    "tkmd2_415150632110": {
+      "stationId": "415150632110",
+      "name": "RTL Hamburg & Schleswig-Holstein",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-hh-sh/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_415148584253": {
+      "stationId": "415148584253",
+      "name": "RTL Hessen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-hessen/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_389265960204": {
+      "stationId": "389265960204",
+      "name": "RTL Living",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-living/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTLLiving.de"
+    },
+    "tkmd2_415150632113": {
+      "stationId": "415150632113",
+      "name": "RTL Nordrhein-Westfalen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl-nrw/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_389264424257": {
+      "stationId": "389264424257",
+      "name": "RTL Passion",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/passion/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTLPassion.de"
+    },
+    "tkmd2_481691176162": {
+      "stationId": "481691176162",
+      "name": "RTL Rhein-Neckar",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01000-RTLRhein-Neckar/stationLogo_20230410.png"
+      }
+    },
+    "tkmd2_259728423995": {
+      "stationId": "259728423995",
+      "name": "RTL",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTL.de"
+    },
+    "tkmd2_492498472234": {
+      "stationId": "492498472234",
+      "name": "RTL",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00860-RTLUHD/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424253": {
+      "stationId": "389264424253",
+      "name": "RTLup",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00748-RTLplus/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTLup.de"
+    },
+    "tkmd2_274352679973": {
+      "stationId": "274352679973",
+      "name": "RTLZWEI",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/rtl2/stationLogo_20220211.png"
+      },
+      "tvg-id": "RTL2.de"
+    },
+    "tkmd2_492498472232": {
+      "stationId": "492498472232",
+      "name": "salve.tv",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00855-salvetv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_415147560392": {
+      "stationId": "415147560392",
+      "name": "SAT.1 Bayern",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-bayern/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_274352679974": {
+      "stationId": "274352679974",
+      "name": "SAT.1 emotions",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-emotions/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sat1Emotions.de"
+    },
+    "tkmd2_389263912235": {
+      "stationId": "389263912235",
+      "name": "SAT.1 GOLD",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-gold/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sat1Gold.de"
+    },
+    "tkmd2_415148584254": {
+      "stationId": "415148584254",
+      "name": "SAT.1 Hamburg und Schleswig-Holstein",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-hh-sh/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_415149608150": {
+      "stationId": "415149608150",
+      "name": "SAT.1 Niedersachsen und Bremen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-nds-bremen/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_415150120078": {
+      "stationId": "415150120078",
+      "name": "SAT.1 Nordrhein-Westfalen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-nrw/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_415151144338": {
+      "stationId": "415151144338",
+      "name": "SAT.1 Rheinland-Pfalz und Hessen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1-rhlpf-hessen/stationLogo_20230315.png"
+      }
+    },
+    "tkmd2_262269992391": {
+      "stationId": "262269992391",
+      "name": "SAT.1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sat.1/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sat1.de"
+    },
+    "tkmd2_389265448056": {
+      "stationId": "389265448056",
+      "name": "SCHLAGER DELUXE",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00970-SCHLAGERDELUXE/stationLogo_20221114.png"
+      },
+      "tvg-id": "SchlagerDeluxe.de"
+    },
+    "tkmd2_389263912219": {
+      "stationId": "389263912219",
+      "name": "Schlagerparadies.TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00949-SchlagerparadiesTV/stationLogo_20221114.png"
+      },
+      "tvg-id": "SchlagerparadiesTV.de"
+    },
+    "tkmd2_738500136328": {
+      "stationId": "738500136328",
+      "name": "Scooore",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01039-Scooore/stationLogo_20251113.png"
+      },
+      "tvg-id": "Sportdigitalscooore.de"
+    },
+    "tkmd2_389263912249": {
+      "stationId": "389263912249",
+      "name": "Shop LC",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00920-ShopLC/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_764523048346": {
+      "stationId": "764523048346",
+      "name": "Shopping Queen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01048-ShoppingQueen/stationLogo_20251216.png"
+      }
+    },
+    "tkmd2_389265960197": {
+      "stationId": "389265960197",
+      "name": "Show Max",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00877-ShowMax/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264936257": {
+      "stationId": "389264936257",
+      "name": "Show Turk",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/show-turk/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389263912226": {
+      "stationId": "389263912226",
+      "name": "sixx",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sixx/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sixx.de"
+    },
+    "tkmd2_389264424264": {
+      "stationId": "389264424264",
+      "name": "Sky Atlantic",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skyatlantic/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyAtlanticHD.de"
+    },
+    "tkmd2_389264936248": {
+      "stationId": "389264936248",
+      "name": "Sky Cinema Action",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skyaction/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyAction.de"
+    },
+    "tkmd2_389264424259": {
+      "stationId": "389264424259",
+      "name": "Sky Cinema Classics",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skynostalgie/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyCinemaClassics.de"
+    },
+    "tkmd2_389266472159": {
+      "stationId": "389266472159",
+      "name": "Sky Cinema Family",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00776-SkyCinemaFamily/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyCinemaFamily.de"
+    },
+    "tkmd2_509713959991": {
+      "stationId": "509713959991",
+      "name": "Sky Cinema Highlights",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01009-SkyCinemaHighlights/stationLogo_20240318.png"
+      },
+      "tvg-id": "SkyCinemaHighlights.de"
+    },
+    "tkmd2_389264936266": {
+      "stationId": "389264936266",
+      "name": "Sky Cinema Premiere",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skycinema/stationLogo_20240318.png"
+      },
+      "tvg-id": "SkyCinemaPremieren.de"
+    },
+    "tkmd2_389265960239": {
+      "stationId": "389265960239",
+      "name": "Sky Crime",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00901-SkyCrime/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyCrime.de"
+    },
+    "tkmd2_389265960232": {
+      "stationId": "389265960232",
+      "name": "Sky Documentaries",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00915-SkyDocumentaries/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyDocumentaries.de"
+    },
+    "tkmd2_389264424272": {
+      "stationId": "389264424272",
+      "name": "Sky Krimi",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skykrimi/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyKrimi.de"
+    },
+    "tkmd2_389266472149": {
+      "stationId": "389266472149",
+      "name": "Sky Nature",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00917-SkyNature/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkyNature.de"
+    },
+    "tkmd2_389264936273": {
+      "stationId": "389264936273",
+      "name": "Sky One",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00780-Sky1/stationLogo_20220211.png"
+      },
+      "tvg-id": "Sky1.de"
+    },
+    "tkmd2_389266472148": {
+      "stationId": "389266472148",
+      "name": "Sky Sci-Fi (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/syfy-sky/stationLogo_20260121.png"
+      },
+      "tvg-id": "SciFi.de"
+    },
+    "tkmd2_389264424228": {
+      "stationId": "389264424228",
+      "name": "Sky Sci-Fi",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/syfy/stationLogo_20260121.png"
+      }
+    },
+    "tkmd2_389266472150": {
+      "stationId": "389266472150",
+      "name": "Sky Showcase",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00986-SkyShowcase/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyShowcase.de"
+    },
+    "tkmd2_389263912242": {
+      "stationId": "389263912242",
+      "name": "Sky Sport 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-03/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport1.de"
+    },
+    "tkmd2_389266472183": {
+      "stationId": "389266472183",
+      "name": "Sky Sport 10",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00981-SkySport10/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport10.de"
+    },
+    "tkmd2_389264936252": {
+      "stationId": "389264936252",
+      "name": "Sky Sport 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-04/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport2.de"
+    },
+    "tkmd2_389264424271": {
+      "stationId": "389264424271",
+      "name": "Sky Sport 3",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-05/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport3.de"
+    },
+    "tkmd2_389266472169": {
+      "stationId": "389266472169",
+      "name": "Sky Sport 4",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-06/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport4.de"
+    },
+    "tkmd2_389263912221": {
+      "stationId": "389263912221",
+      "name": "Sky Sport 5",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-07/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport5.de"
+    },
+    "tkmd2_389264936258": {
+      "stationId": "389264936258",
+      "name": "Sky Sport 6",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-08/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport6.de"
+    },
+    "tkmd2_389266472171": {
+      "stationId": "389266472171",
+      "name": "Sky Sport 7",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-09/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport7.de"
+    },
+    "tkmd2_389265960226": {
+      "stationId": "389265960226",
+      "name": "Sky Sport 8",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-10/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport8.de"
+    },
+    "tkmd2_389264936247": {
+      "stationId": "389264936247",
+      "name": "Sky Sport 9",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-11/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySport9.de"
+    },
+    "tkmd2_389263912237": {
+      "stationId": "389263912237",
+      "name": "Sky Sport Bundesliga 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-02/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga1.de"
+    },
+    "tkmd2_389264936256": {
+      "stationId": "389264936256",
+      "name": "Sky Sport Bundesliga 10",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00980-SkySportBundesliga10/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga10.de"
+    },
+    "tkmd2_389265960192": {
+      "stationId": "389265960192",
+      "name": "Sky Sport Bundesliga 2",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-03/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga2.de"
+    },
+    "tkmd2_389265448068": {
+      "stationId": "389265448068",
+      "name": "Sky Sport Bundesliga 3",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-04/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga3.de"
+    },
+    "tkmd2_389264424240": {
+      "stationId": "389264424240",
+      "name": "Sky Sport Bundesliga 4",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-05/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga4.de"
+    },
+    "tkmd2_389265448062": {
+      "stationId": "389265448062",
+      "name": "Sky Sport Bundesliga 5",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-06/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga5.de"
+    },
+    "tkmd2_389264424242": {
+      "stationId": "389264424242",
+      "name": "Sky Sport Bundesliga 6",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-07/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga6.de"
+    },
+    "tkmd2_389263912224": {
+      "stationId": "389263912224",
+      "name": "Sky Sport Bundesliga 7",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-08/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga7.de"
+    },
+    "tkmd2_389264936260": {
+      "stationId": "389264936260",
+      "name": "Sky Sport Bundesliga 8",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-09/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga8.de"
+    },
+    "tkmd2_389265448058": {
+      "stationId": "389265448058",
+      "name": "Sky Sport Bundesliga 9",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skybuli-10/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkyBundesliga9.de"
+    },
+    "tkmd2_389263912231": {
+      "stationId": "389263912231",
+      "name": "Sky Sport Golf",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00978-SkySportGolf/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySportGolf.de"
+    },
+    "tkmd2_389265448046": {
+      "stationId": "389265448046",
+      "name": "Sky Sport Kompakt 1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00819-SkySportKompakt1/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389263912250": {
+      "stationId": "389263912250",
+      "name": "Sky Sport Mix",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00977-SkySportMix/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySportMix.de"
+    },
+    "tkmd2_389264424255": {
+      "stationId": "389264424255",
+      "name": "Sky Sport News",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skyspnews/stationLogo_20220211.png"
+      },
+      "tvg-id": "SkySportNewsHD.de"
+    },
+    "tkmd2_389263912232": {
+      "stationId": "389263912232",
+      "name": "Sky Sport Premier League",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00976-SkySportPremierLeague/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySportPremierLeague.de"
+    },
+    "tkmd2_389264936243": {
+      "stationId": "389264936243",
+      "name": "Sky Sport Tennis",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-02/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySportTennis.de"
+    },
+    "tkmd2_389265448072": {
+      "stationId": "389265448072",
+      "name": "Sky Sport Top Event",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/skysport-01/stationLogo_20221114.png"
+      },
+      "tvg-id": "SkySportTopEvent.de"
+    },
+    "tkmd2_769867816329": {
+      "stationId": "769867816329",
+      "name": "Sky Sport",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00815-SkySportUHD/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265960219": {
+      "stationId": "389265960219",
+      "name": "sonnenklar.TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sonnenklar.tv/stationLogo_20220211.png"
+      },
+      "tvg-id": "SonnenKlar.de"
+    },
+    "tkmd2_389265960227": {
+      "stationId": "389265960227",
+      "name": "Spiegel Geschichte",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00881-SpiegelGeschichte/stationLogo_20230802.png"
+      },
+      "tvg-id": "SpiegelGeschichte.de"
+    },
+    "tkmd2_754135080287": {
+      "stationId": "754135080287",
+      "name": "Spiegel TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01057-SPIEGELTV/stationLogo_20260121.png"
+      }
+    },
+    "tkmd2_389265448066": {
+      "stationId": "389265448066",
+      "name": "SPORT1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sport1/stationLogo_20240424.png"
+      },
+      "tvg-id": "Sport1HD.de"
+    },
+    "tkmd2_389264424241": {
+      "stationId": "389264424241",
+      "name": "SPORTDIGITAL FUSSBALL",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sportdigital/stationLogo_20220211.png"
+      },
+      "tvg-id": "SportdigitalFussball.de"
+    },
+    "tkmd2_389265960236": {
+      "stationId": "389265960236",
+      "name": "Sportdigital1+",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sport1plus/stationLogo_20241203.png"
+      }
+    },
+    "tkmd2_274352679976": {
+      "stationId": "274352679976",
+      "name": "SR Fernsehen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/sr/stationLogo_20241119.png"
+      },
+      "tvg-id": "SRFernsehen.de"
+    },
+    "tkmd2_492499496078": {
+      "stationId": "492499496078",
+      "name": "SRF",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00919-SRF/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_587597352323": {
+      "stationId": "587597352323",
+      "name": "Stimmungsgarten TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01017-StimmungsgartenTV/stationLogo_20240815.png"
+      },
+      "tvg-id": "StimmungsgartenTV.at"
+    },
+    "tkmd2_389264424239": {
+      "stationId": "389264424239",
+      "name": "Stingray Classica",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00961-StingrayClassica/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_389264936269": {
+      "stationId": "389264936269",
+      "name": "Stingray DJAZZ",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00962-StingrayDJAZZ/stationLogo_20221114.png"
+      },
+      "tvg-id": "StingrayDJAZZ.de"
+    },
+    "tkmd2_389264424274": {
+      "stationId": "389264424274",
+      "name": "Stingray iConcerts",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00963-StingrayiConcerts/stationLogo_20221114.png"
+      }
+    },
+    "tkmd2_767936552362": {
+      "stationId": "767936552362",
+      "name": "Studio 47",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00849-Studio47/stationLogo_20251027.png"
+      }
+    },
+    "tkmd2_274352679977": {
+      "stationId": "274352679977",
+      "name": "Super RTL",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/super-rtl/stationLogo_20220211.png"
+      },
+      "tvg-id": "SuperRTL.de"
+    },
+    "tkmd2_274350120291": {
+      "stationId": "274350120291",
+      "name": "SWR Fernsehen BW",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/swr-bw/stationLogo_20220211.png"
+      },
+      "tvg-id": "SWRFernsehen.de"
+    },
+    "tkmd2_389265960196": {
+      "stationId": "389265960196",
+      "name": "SWR Fernsehen RP",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/swr-rp/stationLogo_20220211.png"
+      },
+      "tvg-id": "SWRFernsehen-rp.de"
+    },
+    "tkmd2_745871912203": {
+      "stationId": "745871912203",
+      "name": "SYLT1",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01038-SYLT1/stationLogo_20251013.png"
+      }
+    },
+    "tkmd2_389265448048": {
+      "stationId": "389265448048",
+      "name": "tagesschau24",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tagesschau24/stationLogo_20220211.png"
+      },
+      "tvg-id": "tagesschau24.de"
+    },
+    "tkmd2_389266472168": {
+      "stationId": "389266472168",
+      "name": "TELE 5",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tele5/stationLogo_20220211.png"
+      },
+      "tvg-id": "Tele5.de"
+    },
+    "tkmd2_389264424261": {
+      "stationId": "389264424261",
+      "name": "TeleBom/TeleDom",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/detmirtk/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_736345639978": {
+      "stationId": "736345639978",
+      "name": "Telenovela ZDF",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01043-TelenovelaZDF/stationLogo_20251113.png"
+      }
+    },
+    "tkmd2_610214440158": {
+      "stationId": "610214440158",
+      "name": "teltOwkanal",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01020-teltOwkanal/stationLogo_20241203.png"
+      }
+    },
+    "tkmd2_754138663958": {
+      "stationId": "754138663958",
+      "name": "Terra Mater WILD",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01060-TerraMaterWILD/stationLogo_20260121.png"
+      }
+    },
+    "tkmd2_389266472153": {
+      "stationId": "389266472153",
+      "name": "The HISTORY Channel (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/histhd-sky/stationLogo_20230406.png"
+      },
+      "tvg-id": "HistoryChannel.de"
+    },
+    "tkmd2_389264424263": {
+      "stationId": "389264424263",
+      "name": "The HISTORY Channel",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/history-channel/stationLogo_20230406.png"
+      }
+    },
+    "tkmd2_389265448055": {
+      "stationId": "389265448055",
+      "name": "TLC",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tlc/stationLogo_20220211.png"
+      },
+      "tvg-id": "TLC.de"
+    },
+    "tkmd2_389264424245": {
+      "stationId": "389264424245",
+      "name": "TOGGO plus",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00792-TOGGOplus/stationLogo_20220211.png"
+      },
+      "tvg-id": "TOGGOplus.de"
+    },
+    "tkmd2_754137640065": {
+      "stationId": "754137640065",
+      "name": "TOP SCI-FI",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01053-TOPSCI-FI/stationLogo_20260121.png"
+      }
+    },
+    "tkmd2_389265960213": {
+      "stationId": "389265960213",
+      "name": "TOP SERIEN",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00941-craction/stationLogo_20250320.png"
+      }
+    },
+    "tkmd2_754137640066": {
+      "stationId": "754137640066",
+      "name": "TOP TRUE CRIME",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01054-TOPTRUECRIME/stationLogo_20260121.png"
+      },
+      "tvg-id": "TopTrueCrime.de"
+    },
+    "tkmd2_597433895959": {
+      "stationId": "597433895959",
+      "name": "Travelxp 4K",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00857-Travelxp4K/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389266472163": {
+      "stationId": "389266472163",
+      "name": "Travelxp",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00992-Travelxp/stationLogo_20230323.png"
+      }
+    },
+    "tkmd2_488325160191": {
+      "stationId": "488325160191",
+      "name": "TRT Cocuk",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01003-TRTCocuk/stationLogo_20240109.png"
+      }
+    },
+    "tkmd2_492496936304": {
+      "stationId": "492496936304",
+      "name": "TV Mainfranken",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tv-touring-wuerzburg/stationLogo_20250320.png"
+      },
+      "tvg-id": "tvmainfranken.de"
+    },
+    "tkmd2_492497960281": {
+      "stationId": "492497960281",
+      "name": "TV Mittelrhein",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00781-TVMittelrhein/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_492496936306": {
+      "stationId": "492496936306",
+      "name": "TV Oberfranken",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tv-oberfranken/stationLogo_20220211.png"
+      },
+      "tvg-id": "tvo.de"
+    },
+    "tkmd2_492496936308": {
+      "stationId": "492496936308",
+      "name": "TV Westsachsen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00848-TVWestsachsen/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_767935016341": {
+      "stationId": "767935016341",
+      "name": "tv.berlin",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00783-tvberlin/stationLogo_20220211.png"
+      },
+      "tvg-id": "TVBerlin.de"
+    },
+    "tkmd2_492497448192": {
+      "stationId": "492497448192",
+      "name": "tv.ingolstadt",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/intv/stationLogo_20220211.png"
+      },
+      "tvg-id": "tvingolstadt.de"
+    },
+    "tkmd2_389264424226": {
+      "stationId": "389264424226",
+      "name": "TV5MONDE Europe",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00937-TV5MONDEEurope/stationLogo_20251013.png"
+      }
+    },
+    "tkmd2_389263912247": {
+      "stationId": "389263912247",
+      "name": "TV8 Int",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tv-8-int/stationLogo_20220211.png"
+      },
+      "tvg-id": "TV8int.tr"
+    },
+    "tkmd2_492497448198": {
+      "stationId": "492497448198",
+      "name": "TVA Ostbayern",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tva-ostbayern/stationLogo_20220211.png"
+      },
+      "tvg-id": "TVAOstbayern.de"
+    },
+    "tkmd2_415148584247": {
+      "stationId": "415148584247",
+      "name": "TVP Polonia",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tv-polonia/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389263912218": {
+      "stationId": "389263912218",
+      "name": "ÜLKE TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/power-tuerk-tv/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389266472154": {
+      "stationId": "389266472154",
+      "name": "Universal TV (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/universalhd-sky/stationLogo_20220211.png"
+      },
+      "tvg-id": "Universal.de"
+    },
+    "tkmd2_389264424256": {
+      "stationId": "389264424256",
+      "name": "Universal TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/universal-channel/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389265448061": {
+      "stationId": "389265448061",
+      "name": "Volksmusik.TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00952-VolksmusikTV/stationLogo_20240110.png"
+      },
+      "tvg-id": "Volksmusik.TV.de"
+    },
+    "tkmd2_274350120287": {
+      "stationId": "274350120287",
+      "name": "VOX",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/vox/stationLogo_20220211.png"
+      },
+      "tvg-id": "Vox.de"
+    },
+    "tkmd2_389264424232": {
+      "stationId": "389264424232",
+      "name": "VOXup",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00880-VOXup/stationLogo_20220211.png"
+      },
+      "tvg-id": "VOXup.de"
+    },
+    "tkmd2_389263912243": {
+      "stationId": "389263912243",
+      "name": "Warner TV Comedy (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/glitz-hd-sky/stationLogo_20220211.png"
+      },
+      "tvg-id": "WarnerTVComedy.de"
+    },
+    "tkmd2_262730280165": {
+      "stationId": "262730280165",
+      "name": "Warner TV Comedy",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/glitz/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424235": {
+      "stationId": "389264424235",
+      "name": "Warner TV Film (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00741-TNTFilmSky/stationLogo_20220211.png"
+      },
+      "tvg-id": "WarnerTVFilm.de"
+    },
+    "tkmd2_262730280151": {
+      "stationId": "262730280151",
+      "name": "Warner TV Film",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tnt-film/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_389264424258": {
+      "stationId": "389264424258",
+      "name": "Warner TV Serie (Sky)",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tnt-serie-sky/stationLogo_20220211.png"
+      },
+      "tvg-id": "WarnerTVSerie.de"
+    },
+    "tkmd2_262729768198": {
+      "stationId": "262729768198",
+      "name": "Warner TV Serie",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/tnt-serie/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_415150632065": {
+      "stationId": "415150632065",
+      "name": "WDR Fernsehen Aachen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-aachen/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415150120143": {
+      "stationId": "415150120143",
+      "name": "WDR Fernsehen Bielefeld",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-bielefeld/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415149608152": {
+      "stationId": "415149608152",
+      "name": "WDR Fernsehen Bonn",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-bonn/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415150120095": {
+      "stationId": "415150120095",
+      "name": "WDR Fernsehen Dortmund",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-dortmund/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415147560391": {
+      "stationId": "415147560391",
+      "name": "WDR Fernsehen Duisburg",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-duisburg/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415150632111": {
+      "stationId": "415150632111",
+      "name": "WDR Fernsehen Düsseldorf",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-duesseldorf/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415150120077": {
+      "stationId": "415150120077",
+      "name": "WDR Fernsehen Essen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-essen/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_262729768202": {
+      "stationId": "262729768202",
+      "name": "WDR Fernsehen Köln",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415151144359": {
+      "stationId": "415151144359",
+      "name": "WDR Fernsehen Münster",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-muenster/stationLogo_20241119.png"
+      },
+      "tvg-id": "WDRFernsehen.de"
+    },
+    "tkmd2_415148584249": {
+      "stationId": "415148584249",
+      "name": "WDR Fernsehen Siegen",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-siegen/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_415150632109": {
+      "stationId": "415150632109",
+      "name": "WDR Fernsehen Wuppertal",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/wdr-wuppertal/stationLogo_20241119.png"
+      }
+    },
+    "tkmd2_389264424249": {
+      "stationId": "389264424249",
+      "name": "wedotv Movies",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00956-wedomovies/stationLogo_20251202.png"
+      },
+      "tvg-id": "WedoMovies.de"
+    },
+    "tkmd2_389264424234": {
+      "stationId": "389264424234",
+      "name": "Welt der Wunder",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/welt-der-wunder/stationLogo_20220211.png"
+      },
+      "tvg-id": "WeltDerWunder.de"
+    },
+    "tkmd2_274351656124": {
+      "stationId": "274351656124",
+      "name": "WELT",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/n24/stationLogo_20220211.png"
+      },
+      "tvg-id": "WELT.de"
+    },
+    "tkmd2_389266472151": {
+      "stationId": "389266472151",
+      "name": "wetter.com TV",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00758-wettercomTV/stationLogo_20220211.png"
+      }
+    },
+    "tkmd2_736340520422": {
+      "stationId": "736340520422",
+      "name": "World of Freesports",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID01041-WorldofFreesports/stationLogo_20251113.png"
+      }
+    },
+    "tkmd2_262264872014": {
+      "stationId": "262264872014",
+      "name": "ZDF",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/zdf/stationLogo_20220211.png"
+      },
+      "tvg-id": "ZDF.de"
+    },
+    "tkmd2_389266472186": {
+      "stationId": "389266472186",
+      "name": "ZDFinfo",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/zdf-info/stationLogo_20220211.png"
+      },
+      "tvg-id": "ZDFinfo.de"
+    },
+    "tkmd2_262729768194": {
+      "stationId": "262729768194",
+      "name": "ZDFneo",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/zdf-neo/stationLogo_20220211.png"
+      },
+      "tvg-id": "ZDFneo.de"
+    },
+    "tkmd2_389265960194": {
+      "stationId": "389265960194",
+      "name": "ZWEI MUSIC TELEVISION",
+      "preferredImage": {
+        "uri": "https://ngiss.t-online.de/iss?client=ftp22&out=webp&x=180&y=72&ar=keep&src=https%3A//ftp-imagehost-prod-public.s3.eu-central-1.amazonaws.com/logos/KID00955-ZWEIMUSICTELEVISION/stationLogo_20221114.png"
+      },
+      "tvg-id": "ZweiMusicTelevision.de"
+    },
+    "skyde_659": {
+      "stationId": "659",
+      "name": "DAZN 1 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/659_sky_logo_dazn1-hd_tvguide.png"
+      },
+      "tvg-id": "DAZN1.de"
+    },
+    "skyde_900": {
+      "stationId": "900",
+      "name": "DAZN 2 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/900_sky_logo_dazn2-hd_tvguide.png"
+      },
+      "tvg-id": "DAZN2.de"
+    },
+    "skyde_492": {
+      "stationId": "492",
+      "name": "Sky Sport Austria 1 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/492_sky_logo_skysportaustria-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria.de"
+    },
+    "skyde_729": {
+      "stationId": "729",
+      "name": "Sky Sport Austria 2 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/729_sky_logo_skysportaustria_2-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria2.de"
+    },
+    "skyde_730": {
+      "stationId": "730",
+      "name": "Sky Sport Austria 3 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/730_sky_logo_skysportaustria_3-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria3.de"
+    },
+    "skyde_898": {
+      "stationId": "898",
+      "name": "Sky Sport Austria 4 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/898_sky_logo_skysportaustria_4-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria4.de"
+    },
+    "skyde_883": {
+      "stationId": "883",
+      "name": "Sky Sport Austria 5 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/883_sky_logo_sky-sport-austria-5-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria5.de"
+    },
+    "skyde_884": {
+      "stationId": "884",
+      "name": "Sky Sport Austria 6 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/884_sky_logo_sky-sport-austria-6-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria6.de"
+    },
+    "skyde_885": {
+      "stationId": "885",
+      "name": "Sky Sport Austria 7 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/885_sky_logo_sky-sport-austria-7-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria7.de"
+    },
+    "skyde_928": {
+      "stationId": "928",
+      "name": "Sky Sport Austria 8 HD",
+      "preferredImage": {
+        "uri": "https://www.sky.de/static/img/senderlogos_dark/928_sky_logo_sky-sport-austria-8-hd_tvguide.png"
+      },
+      "tvg-id": "SkySportAustria8.de"
+    },
+    "wpude_silverline": {
+      "stationId": "silverline",
+      "name": "Silverline",
+      "preferredImage": {
+        "uri": "https://images.wpstr.tv/station/silverline/ca74f72a/hd/standard?res=320x180"
+      },
+      "tvg-id": "Silverline.de"
+    }
+  },
+  "settings": {
+    "api_key": null,
+    "days": "2",
+    "rm": "add-info",
+    "is": "Md",
+    "it": "16x9",
+    "at": "fsk",
+    "rate": "24",
+    "ut": "04:00",
+    "ag": "no",
+    "file": true,
+    "dl_threads": 1,
+    "pn_max": 50000
+  },
+  "auth_data": {},
+  "sessions": {},
+  "xmltv": {
+    "xml1770837931": {
+      "name": "RytecDE Basic",
+      "link": "http://www.xmltvepg.nl/rytecDE_Basic.xz"
+    },
+    "xml1770838083": {
+      "name": "rytecDE_Basic",
+      "link": "http://www.xmltvepg.nl/rytecDE_Basic.xz"
+    },
+    "xml1771606940": {
+      "name": "rytecDE_SportMovies",
+      "link": "http://www.xmltvepg.nl/rytecDE_SportMovies.xz"
+    },
+    "xml1771758588": {
+      "name": "rytecDE_Common",
+      "link": "http://www.xmltvepg.nl/rytecDE_Common.xz"
+    }
+  },
+  "provider_settings": {
+    "xml1772130309": {
+      "days": 3,
+      "adv_days": 0
+    },
+    "skyde": {
+      "days": 2,
+      "adv_days": 2,
+      "adv_threads": 3,
+      "adv_files": 3,
+      "adv_duration": 3
+    },
+    "tkmd2": {
+      "days": 2,
+      "adv_days": 2,
+      "adv_threads": 2,
+      "adv_files": 2,
+      "adv_duration": 2
+    }
+  }
+}

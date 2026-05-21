@@ -202,7 +202,7 @@ main() {
   need_cmd tar
 
   prompt_if_empty MAPPER_ARCHIVE_URL "Mapper GitHub/Unraid Archiv-URL"
-  prompt_if_empty SPM_BASE_URL "SPM Basis-URL, z.B. http://10.10.100.117:8000"
+  prompt_if_empty SPM_BASE_URL "SPM Basis-URL, z.B. http://DEINE-SPM-IP:8000"
   prompt_if_empty SPM_USERNAME "SPM Benutzername"
   prompt_if_empty SPM_PASSWORD "SPM Passwort"
 

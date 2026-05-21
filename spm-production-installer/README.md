@@ -9,6 +9,22 @@ Er installiert:
 - SPM Login per Benutzer/Passwort
 - optional EasyEPG `settings.json`
 
+## EasyEPG settings.json
+
+Eine komplette EasyEPG `settings.json` kann sensible oder private Daten enthalten:
+
+- Session-Cookies von Providern
+- private XMLTV-Quellen/URLs
+- deine persoenliche Sender- und Provider-Auswahl
+
+Darum liegt hier nur eine bereinigte Vorlage:
+
+```text
+easyepg-settings.rytec-template.json
+```
+
+Diese Vorlage enthaelt keine Sessions, keine Login-Daten und nur oeffentliche Rytec-Quellen. Damit kann ein neues EasyEPG-System schneller starten. Danach in EasyEPG pruefen, ob die Quellen geladen werden, und bei Bedarf eigene Provider ergaenzen.
+
 ## Empfehlung
 
 Ich wuerde es so aufbauen:
@@ -47,7 +63,7 @@ Beispiel:
 ```bash
 curl -fsSL https://DEINE-URL/install.sh | \
 MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
-SPM_BASE_URL="http://10.10.100.117:8000" \
+SPM_BASE_URL="http://DEINE-SPM-IP:8000" \
 SPM_TARGET_NAME="Produktiv SPM" \
 SPM_USERNAME="dein_benutzer" \
 SPM_PASSWORD="dein_passwort" \
@@ -63,7 +79,7 @@ Beispiel:
 ```bash
 curl -fsSL https://DEINE-URL/install.sh | \
 MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
-SPM_BASE_URL="http://10.10.100.117:8000" \
+SPM_BASE_URL="http://DEINE-SPM-IP:8000" \
 SPM_USERNAME="dein_benutzer" \
 SPM_PASSWORD="dein_passwort" \
 EASYEPG_SETTINGS_URL="http://UNRAID-IP/easyepg/settings.json" \
@@ -81,7 +97,7 @@ Beispiel fuer Unraid Appdata:
 ```bash
 curl -fsSL https://DEINE-URL/install.sh | \
 MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
-SPM_BASE_URL="http://10.10.100.117:8000" \
+SPM_BASE_URL="http://DEINE-SPM-IP:8000" \
 SPM_USERNAME="dein_benutzer" \
 SPM_PASSWORD="dein_passwort" \
 EASYEPG_SETTINGS_URL="http://UNRAID-IP/easyepg/settings.json" \

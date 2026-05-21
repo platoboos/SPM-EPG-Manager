@@ -127,14 +127,14 @@ http://<SPM-IP>:8000/proxy/custom/<PortalName>_tv_spm.m3u
 Beispiele im Test-SPM:
 
 ```text
-http://10.10.100.117:8000/proxy/custom/204TV_tv_spm.m3u
-http://10.10.100.117:8000/proxy/custom/Sky4K_tv_spm.m3u
+http://DEINE-SPM-IP:8000/proxy/custom/204TV_tv_spm.m3u
+http://DEINE-SPM-IP:8000/proxy/custom/Sky4K_tv_spm.m3u
 ```
 
 Die normale M3U bleibt weiterhin vorhanden:
 
 ```text
-http://10.10.100.117:8000/proxy/<PortalName>_tv.m3u
+http://DEINE-SPM-IP:8000/proxy/<PortalName>_tv.m3u
 ```
 
 Wenn etwas nicht passt, kannst du in TiviMate oder E-Channelizer wieder temporaer die normale M3U verwenden.
@@ -149,7 +149,7 @@ Beispiel:
 
 ```text
 Playlist:
-http://10.10.100.117:8000/proxy/custom/204TV_tv_spm.m3u
+http://DEINE-SPM-IP:8000/proxy/custom/204TV_tv_spm.m3u
 
 EPG:
 https://epg1.boombox.de/epg.xml.gz

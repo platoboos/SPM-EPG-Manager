@@ -18,7 +18,7 @@ cd /opt/spm-tvg-mapper && chmod +x install_webui.sh && ./install_webui.sh
 
 Danach fragt das Script ab:
 
-- SPM Basis-URL, z.B. `http://10.10.100.117:8000`
+- SPM Basis-URL, z.B. `http://DEINE-SPM-IP:8000`
 - SPM Benutzername
 - SPM Passwort
 
@@ -27,7 +27,7 @@ Danach fragt das Script ab:
 Nur verwenden, wenn niemand in die Shell-History schauen kann. Das Passwort steht sonst in der History.
 
 ```bash
-cd /opt/spm-tvg-mapper && chmod +x install_webui.sh && SPM_BASE_URL="http://10.10.100.117:8000" SPM_TARGET_NAME="Produktiv SPM" SPM_USERNAME="dein_benutzer" SPM_PASSWORD="dein_passwort" ./install_webui.sh
+cd /opt/spm-tvg-mapper && chmod +x install_webui.sh && SPM_BASE_URL="http://DEINE-SPM-IP:8000" SPM_TARGET_NAME="Produktiv SPM" SPM_USERNAME="dein_benutzer" SPM_PASSWORD="dein_passwort" ./install_webui.sh
 ```
 
 ## Danach
