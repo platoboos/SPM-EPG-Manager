@@ -31,12 +31,12 @@ prompt_if_empty() {
   if [ -z "$current_value" ]; then
     printf '%s: ' "$prompt"
     if [ "$var_name" = "SPM_PASSWORD" ]; then
-      stty -echo 2>/dev/null || true
-      IFS= read -r entered
-      stty echo 2>/dev/null || true
+      stty -echo < /dev/tty 2>/dev/null || true
+      IFS= read -r entered < /dev/tty
+      stty echo < /dev/tty 2>/dev/null || true
       printf '\n'
     else
-      IFS= read -r entered
+      IFS= read -r entered < /dev/tty
     fi
     eval "$var_name=\$entered"
   fi
