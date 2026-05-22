@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 
 $ProjectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $BundledNode = "C:\Users\torst\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
@@ -33,7 +33,7 @@ $NodePath = Get-NodePath
 Set-Location $ProjectDir
 
 Write-Host ""
-Write-Host "SPM TVG Mapper - DRY-RUN" -ForegroundColor Cyan
+Write-Host "SPM EPG Manager - DRY-RUN" -ForegroundColor Cyan
 Write-Host "Es wird nichts in SPM gespeichert."
 if ($env:SPM_COOKIE) {
   if ($env:SPM_USERNAME -and $env:SPM_PASSWORD) {
@@ -47,3 +47,4 @@ if ($env:SPM_COOKIE) {
 Write-Host ""
 
 & $NodePath $RunnerPath --config=$ConfigPath --dry-run
+

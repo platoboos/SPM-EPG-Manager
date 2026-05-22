@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 set -euo pipefail
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -28,7 +28,7 @@ if ! command -v node >/dev/null 2>&1; then
 fi
 
 echo ""
-echo "SPM TVG Mapper - APPLY"
+echo "SPM EPG Manager - APPLY"
 echo "Dieser Lauf speichert TVG-IDs in SPM."
 echo "Vorher sollte ein Dry-Run erfolgreich gewesen sein."
 echo "Config: $CONFIG_PATH"
@@ -47,3 +47,4 @@ echo "Starte Apply-Lauf..."
 echo ""
 
 node "$RUNNER_PATH" "--config=$CONFIG_PATH" --apply
+

@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+﻿#!/usr/bin/env sh
 set -eu
 
 PROJECT_DIR="${PROJECT_DIR:-$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)}"
@@ -90,7 +90,7 @@ chmod 600 .env.local
 cat > config/spm_targets.web.json <<EOF
 {
   "meta": {
-    "description": "SPM TVG Mapper WebUI-Konfiguration",
+    "description": "SPM EPG Manager WebUI-Konfiguration",
     "note": "Benutzername und Passwort werden per Docker-Environment gesetzt."
   },
   "targets": [
@@ -118,10 +118,11 @@ cat > config/spm_targets.web.json <<EOF
 }
 EOF
 
-say "Baue/starte SPM TVG Mapper WebUI..."
+say "Baue/starte SPM EPG Manager WebUI..."
 compose_cmd up -d --build
 
 say ""
 say "Fertig."
 say "WebUI: http://$(hostname -I 2>/dev/null | awk '{print $1}'):$WEB_PORT"
 say "Falls die IP leer ist: http://HOST-IP:$WEB_PORT"
+

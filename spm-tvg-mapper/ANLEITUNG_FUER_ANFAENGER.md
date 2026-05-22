@@ -1,4 +1,4 @@
-# SPM TVG Mapper - Anleitung fuer Anfaenger
+﻿# SPM EPG Manager - Anleitung fuer Anfaenger
 
 Diese Anleitung beschreibt den sicheren Ablauf, wenn du in SPM automatisch TVG-IDs fuer TiviMate oder E-Channelizer setzen moechtest.
 
@@ -245,3 +245,4 @@ Der Apply-Starter fragt extra nochmal nach `APPLY`, bevor wirklich gespeichert w
 Dry-Run ist anschauen. Apply ist speichern.
 
 Wenn du unsicher bist: Script auf `DRY_RUN: true` lassen.
+

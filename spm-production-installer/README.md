@@ -1,10 +1,10 @@
-# SPM Production Installer
+# SPM EPG Manager - Production Installer
 
 Dieser Ordner ist als sauberes Installationspaket fuer Produktiv- oder neue SPM-Systeme gedacht.
 
 Er installiert:
 
-- SPM TVG Mapper WebUI
+- SPM EPG Manager WebUI
 - Mapper-Konfiguration fuer ein SPM-System
 - SPM Login per Benutzer/Passwort
 - optional EasyEPG `settings.json`

@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+﻿#!/usr/bin/env sh
 set -eu
 
 CONFIG_FILE="${CONFIG_FILE:-.env}"
@@ -120,7 +120,7 @@ EOF
   cat > config/spm_targets.web.json <<EOF
 {
   "meta": {
-    "description": "SPM TVG Mapper Produktiv-Konfiguration",
+    "description": "SPM EPG Manager Produktiv-Konfiguration",
     "note": "Benutzername und Passwort werden per Docker-Environment gesetzt."
   },
   "targets": [
@@ -222,3 +222,4 @@ main() {
 }
 
 main "$@"
+

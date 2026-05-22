@@ -1,4 +1,4 @@
-# SPM TVG Mapper automatisch ausfuehren
+﻿# SPM EPG Manager automatisch ausfuehren
 
 Ziel: Der Mapper soll update-sicher ausserhalb des SPM-Containers laufen.
 
@@ -222,3 +222,4 @@ Fuer produktive SPMs wuerde ich es so machen:
 Das Script speichert nur, wenn `--apply` gesetzt wird.
 
 Ohne `--apply` ist es ein Dry-Run.
+

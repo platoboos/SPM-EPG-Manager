@@ -1,4 +1,4 @@
-# SPM TVG Mapper
+# SPM EPG Manager
 
 Dieses Projekt setzt TVG-IDs in Stalker Portal Manager anhand einer zentralen Rytec-Aliasliste.
 

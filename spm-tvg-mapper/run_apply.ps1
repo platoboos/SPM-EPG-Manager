@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 
 $ProjectDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $BundledNode = "C:\Users\torst\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe"
@@ -30,7 +30,7 @@ if ((-not $env:SPM_COOKIE) -and ((-not $env:SPM_USERNAME) -or (-not $env:SPM_PAS
 }
 
 Write-Host ""
-Write-Host "SPM TVG Mapper - APPLY" -ForegroundColor Yellow
+Write-Host "SPM EPG Manager - APPLY" -ForegroundColor Yellow
 Write-Host "Dieser Lauf speichert TVG-IDs im Test-SPM."
 Write-Host "Vorher sollte ein Dry-Run erfolgreich gewesen sein."
 if ($env:SPM_COOKIE) {
@@ -57,3 +57,4 @@ Write-Host "Starte Apply-Lauf..."
 Write-Host ""
 
 & $NodePath $RunnerPath --config=$ConfigPath --apply
+

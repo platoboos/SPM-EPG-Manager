@@ -1,4 +1,4 @@
-// SPM Auto TVG Mapper
+﻿// SPM Auto TVG Mapper
 // Nutzung: In SPM einloggen, M3U Editor oeffnen, Browser-Konsole oeffnen, komplettes Script einfuegen.
 // Wichtig: /api/m3u-editor/save speichert den kompletten Profilstand. Dieses Script sendet deshalb immer kumulativ.
 
@@ -1883,7 +1883,7 @@
 
   function normalizeName(input) {
     let s = String(input || '').normalize('NFKD').replace(/[\u0300-\u036f]/g, '');
-    s = s.replace(/[ᴬ-ᵿ⁰-₿]/g, ' ');
+    s = s.replace(/[á´¬-áµ¿â°-â‚¿]/g, ' ');
     s = s.toLowerCase();
     s = s.replace(/https?:\/\/\S+/g, ' ');
     s = s.replace(/\b(de|at|ch|dach|germany|deutschland)\b\s*[|:.-]?/g, ' ');
@@ -2113,6 +2113,7 @@
 
   console.table(summary);
   alert(CONFIG.DRY_RUN
-    ? 'SPM TVG Mapper: Testlauf fertig. Report wurde heruntergeladen. Wenn es passt: DRY_RUN auf false setzen.'
-    : 'SPM TVG Mapper: TVG-IDs gespeichert. Danach M3U Editor neu laden / Custom Playlist pruefen.');
+    ? 'SPM EPG Manager: Testlauf fertig. Report wurde heruntergeladen. Wenn es passt: DRY_RUN auf false setzen.'
+    : 'SPM EPG Manager: TVG-IDs gespeichert. Danach M3U Editor neu laden / Custom Playlist pruefen.');
 })();
+

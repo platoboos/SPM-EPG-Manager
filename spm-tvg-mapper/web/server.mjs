@@ -114,7 +114,7 @@ const page = `<!doctype html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>SPM TVG Mapper</title>
+  <title>SPM EPG Manager</title>
   <style>
     :root { color-scheme: light; font-family: Arial, sans-serif; background: #f4f2ec; color: #111; }
     body { margin: 0; }
@@ -145,7 +145,7 @@ const page = `<!doctype html>
 </head>
 <body>
   <header>
-    <h1>SPM TVG Mapper</h1>
+    <h1>SPM EPG Manager</h1>
   </header>
   <main>
     <section>
@@ -304,7 +304,7 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, '0.0.0.0', () => {
-  console.log(`SPM TVG Mapper WebUI: http://0.0.0.0:${PORT}`);
+  console.log(`SPM EPG Manager WebUI: http://0.0.0.0:${PORT}`);
   console.log(`Config: ${CONFIG_PATH}`);
   console.log(`Reports: ${REPORTS_DIR}`);
 });

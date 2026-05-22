@@ -1,4 +1,4 @@
-# Produktiv-Checkliste SPM TVG Mapper
+﻿# Produktiv-Checkliste SPM EPG Manager
 
 Diese Checkliste ist fuer die spaetere Uebernahme vom Test-SPM in produktive SPM-Container gedacht.
 
@@ -61,3 +61,4 @@ http://<SPM-IP>:8000/proxy/<PortalName>_tv.m3u
 ## Merksatz
 
 Immer erst Dry-Run, dann Reports pruefen, dann Apply. Nach jedem Apply das Script wieder auf Dry-Run stellen.
+

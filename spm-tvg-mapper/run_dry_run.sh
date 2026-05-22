@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+﻿#!/usr/bin/env bash
 set -euo pipefail
 
 PROJECT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -30,7 +30,7 @@ fi
 cd "$PROJECT_DIR"
 
 echo ""
-echo "SPM TVG Mapper - DRY-RUN"
+echo "SPM EPG Manager - DRY-RUN"
 echo "Es wird nichts in SPM gespeichert."
 if [ -n "${SPM_USERNAME:-}" ] && [ -n "${SPM_PASSWORD:-}" ]; then
   echo "Anmeldung: Benutzer/Passwort ueber SPM Login-API"
@@ -41,3 +41,4 @@ echo "Config: $CONFIG_PATH"
 echo ""
 
 node "$RUNNER_PATH" "--config=$CONFIG_PATH" --dry-run
+

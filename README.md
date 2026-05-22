@@ -1,4 +1,4 @@
-# SPM Manager
+# SPM EPG Manager
 
 Dieses Paket enthaelt zwei Bausteine:
 

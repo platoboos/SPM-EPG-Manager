@@ -1,4 +1,4 @@
-# SPM TVG Mapper als Docker-WebUI
+﻿# SPM EPG Manager als Docker-WebUI
 
 Diese Variante ist fuer die einfache Installation neben einem oder mehreren SPM-Containern gedacht.
 
@@ -109,4 +109,5 @@ Die erste Version hat keine eigene WebUI-Anmeldung. Deshalb:
 - nur im internen Netz betreiben
 - nicht ins Internet freigeben
 - Port `8099` nicht oeffentlich weiterleiten
+
 

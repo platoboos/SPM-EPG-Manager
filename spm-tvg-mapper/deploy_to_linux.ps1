@@ -1,4 +1,4 @@
-param(
+﻿param(
   [string]$Target = "torsten@ctSTM",
   [string]$RemoteDir = "/opt/spm-tvg-mapper"
 )
@@ -20,7 +20,7 @@ Require-Command "scp"
 Require-Command "ssh"
 
 Write-Host ""
-Write-Host "SPM TVG Mapper Deployment" -ForegroundColor Cyan
+Write-Host "SPM EPG Manager Deployment" -ForegroundColor Cyan
 Write-Host "Ziel: $Target"
 Write-Host "Remote-Ordner: $RemoteDir"
 Write-Host ""
@@ -86,3 +86,4 @@ Write-Host ""
 Write-Host "Fertig. Danach auf dem Host:"
 Write-Host "cd $RemoteDir"
 Write-Host "./install_webui.sh"
+

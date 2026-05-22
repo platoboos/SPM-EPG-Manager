@@ -1,4 +1,4 @@
-# SPM TVG Mapper auf Proxmox/Linux installieren
+﻿# SPM EPG Manager auf Proxmox/Linux installieren
 
 Diese Anleitung ist fuer den Betrieb ausserhalb des SPM-Containers gedacht.
 
@@ -187,3 +187,4 @@ Ich empfehle:
 - Apply bewusst manuell starten
 
 So vermeidest du, dass falsche Zuordnungen automatisch produktiv gespeichert werden.
+
