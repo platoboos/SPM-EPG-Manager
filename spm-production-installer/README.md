@@ -61,8 +61,8 @@ Das Script fragt dann:
 Beispiel:
 
 ```bash
-curl -fsSL https://DEINE-URL/install.sh | \
-MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
+curl -fsSL https://raw.githubusercontent.com/platoboos/SPM-EPG-Manager/main/spm-production-installer/install.sh | \
+MAPPER_ARCHIVE_URL="https://github.com/platoboos/SPM-EPG-Manager/archive/refs/heads/main.tar.gz" \
 SPM_BASE_URL="http://DEINE-SPM-IP:8000" \
 SPM_TARGET_NAME="Produktiv SPM" \
 SPM_USERNAME="dein_benutzer" \
@@ -77,8 +77,8 @@ Wichtig: Das Passwort steht dabei in der Shell-History. Sicherer ist die Variant
 Beispiel:
 
 ```bash
-curl -fsSL https://DEINE-URL/install.sh | \
-MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
+curl -fsSL https://raw.githubusercontent.com/platoboos/SPM-EPG-Manager/main/spm-production-installer/install.sh | \
+MAPPER_ARCHIVE_URL="https://github.com/platoboos/SPM-EPG-Manager/archive/refs/heads/main.tar.gz" \
 SPM_BASE_URL="http://DEINE-SPM-IP:8000" \
 SPM_USERNAME="dein_benutzer" \
 SPM_PASSWORD="dein_passwort" \
@@ -95,8 +95,8 @@ Der Installer macht vorher ein Backup der vorhandenen EasyEPG-Datei.
 Beispiel fuer Unraid Appdata:
 
 ```bash
-curl -fsSL https://DEINE-URL/install.sh | \
-MAPPER_ARCHIVE_URL="https://github.com/DEINNAME/spm-tvg-mapper/archive/refs/heads/main.tar.gz" \
+curl -fsSL https://raw.githubusercontent.com/platoboos/SPM-EPG-Manager/main/spm-production-installer/install.sh | \
+MAPPER_ARCHIVE_URL="https://github.com/platoboos/SPM-EPG-Manager/archive/refs/heads/main.tar.gz" \
 SPM_BASE_URL="http://DEINE-SPM-IP:8000" \
 SPM_USERNAME="dein_benutzer" \
 SPM_PASSWORD="dein_passwort" \
@@ -131,10 +131,6 @@ Dann:
 2. Report kontrollieren
 3. `In SPM speichern`
 
-## Noch offen
+## Oeffentliche Vorlage
 
-Die echten URLs setzen wir erst, wenn du entschieden hast:
-
-- GitHub Repo Name
-- privat oder oeffentlich
-- Unraid Freigabe/URL fuer EasyEPG settings.json
+Fuer andere Nutzer besser die bereinigte EasyEPG-Vorlage aus diesem Repository verwenden oder eigene private Settings selbst bereitstellen. Eine originale EasyEPG `settings.json` sollte vor einer Veroeffentlichung auf Sessions, Cookies und private XMLTV-URLs geprueft werden.
