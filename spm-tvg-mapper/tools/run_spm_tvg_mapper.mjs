@@ -242,6 +242,10 @@ async function fetchAllEntries(fetchJson, portalId, target) {
   return all;
 }
 
+function isPlaylistNotFoundError(error) {
+  return /\b404\b/i.test(error.message || '') && /playlist not found/i.test(error.message || '');
+}
+
 function buildPayload(portalId, entries, profileInfo, target, aliases, blockedAliases) {
   const tvgIds = {};
   const tvgNames = {};
@@ -302,6 +306,7 @@ async function main() {
     const portalIds = await getPortalIds(fetchJson, target);
     for (const portalId of portalIds) {
       console.log(`[SPM TVG] ${target.name || target.baseUrl} Portal ${portalId}: lade Daten...`);
+      try {
       const profileInfo = await ensureProfile(fetchJson, portalId, target, dryRunMode);
       const entries = await fetchAllEntries(fetchJson, portalId, target);
       const result = buildPayload(portalId, entries, profileInfo, target, aliases, blockedAliases);
@@ -329,6 +334,27 @@ async function main() {
         console.log(`[SPM TVG] Portal ${portalId}: gespeichert.`);
       } else {
         console.log(`[SPM TVG] Portal ${portalId}: Dry-Run fertig.`);
+      }
+      } catch (error) {
+        if (!isPlaylistNotFoundError(error)) throw error;
+        const mode = dryRunMode ? 'dry_run' : 'applied';
+        const row = {
+          target: target.name || target.baseUrl,
+          portalId,
+          profileId: null,
+          profileName: '',
+          profileSource: 'skipped-no-playlist',
+          profileCreated: false,
+          entries: 0,
+          matched: 0,
+          payloadTvgIds: 0,
+          unmatched: 0,
+          skipped: 'playlist-not-found'
+        };
+        summary.push(row);
+        const reportName = `spm_tvg_mapper_portal_${portalId}_${mode}_report.json`;
+        await fs.writeFile(path.join(reportsDir, reportName), JSON.stringify({ summary: row, matched: [], unmatched: [], payload: null }, null, 2));
+        console.log(`[SPM TVG] Portal ${portalId}: uebersprungen, keine Playlist gefunden.`);
       }
     }
   }
