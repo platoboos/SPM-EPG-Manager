@@ -1,11 +1,11 @@
 # SPM EPG Manager - Production Installer
 
-Dieser Ordner ist als sauberes Installationspaket fuer Produktiv- oder neue SPM-Systeme gedacht.
+Dieser Ordner ist als sauberes Installationspaket für Produktiv- oder neue SPM-Systeme gedacht.
 
 Er installiert:
 
 - SPM EPG Manager WebUI
-- Mapper-Konfiguration fuer ein SPM-System
+- Mapper-Konfiguration für ein SPM-System
 - SPM Login per Benutzer/Passwort
 - optional EasyEPG `settings.json`
 
@@ -15,7 +15,7 @@ Eine komplette EasyEPG `settings.json` kann sensible oder private Daten enthalte
 
 - Session-Cookies von Providern
 - private XMLTV-Quellen/URLs
-- deine persoenliche Sender- und Provider-Auswahl
+- deine persönliche Sender- und Provider-Auswahl
 
 Darum liegt hier nur eine bereinigte Vorlage:
 
@@ -23,25 +23,25 @@ Darum liegt hier nur eine bereinigte Vorlage:
 easyepg-settings.rytec-template.json
 ```
 
-Diese Vorlage enthaelt keine Sessions, keine Login-Daten und nur oeffentliche Rytec-Quellen. Damit kann ein neues EasyEPG-System schneller starten. Danach in EasyEPG pruefen, ob die Quellen geladen werden, und bei Bedarf eigene Provider ergaenzen.
+Diese Vorlage enthält keine Sessions, keine Login-Daten und nur öffentliche Rytec-Quellen. Damit kann ein neues EasyEPG-System schneller starten. Danach in EasyEPG prüfen, ob die Quellen geladen werden, und bei Bedarf eigene Provider ergänzen.
 
 ## Empfehlung
 
-Ich wuerde es so aufbauen:
+Ich würde es so aufbauen:
 
 1. **GitHub**
-   - Fuer Code, Installer und Mapper-Projekt.
-   - Kann privat oder oeffentlich sein.
-   - Keine Passwoerter, keine `.env`, keine geheimen URLs committen.
+   - Für Code, Installer und Mapper-Projekt.
+   - Kann privat oder öffentlich sein.
+   - Keine Passwörter, keine `.env`, keine geheimen URLs committen.
 
 2. **Unraid**
-   - Fuer private Dateien, falls gewuenscht.
+   - Für private Dateien, falls gewünscht.
    - Zum Beispiel EasyEPG `settings.json`.
    - Vorteil: bleibt zuhause, nicht in GitHub.
 
 Der Installer kann den Mapper von GitHub laden und optional die EasyEPG-Settings von Unraid.
 
-## Einzeiler mit Rueckfragen
+## Einzeiler mit Rückfragen
 
 Auf dem Zielhost:
 
@@ -70,7 +70,7 @@ SPM_PASSWORD="dein_passwort" \
 sh
 ```
 
-Wichtig: Das Passwort steht dabei in der Shell-History. Sicherer ist die Variante mit Rueckfragen.
+Wichtig: Das Passwort steht dabei in der Shell-History. Sicherer ist die Variante mit Rückfragen.
 
 ## Mit EasyEPG settings.json von Unraid
 
@@ -92,7 +92,7 @@ Der Installer macht vorher ein Backup der vorhandenen EasyEPG-Datei.
 
 ## Wenn EasyEPG settings.json auf dem Host liegt
 
-Beispiel fuer Unraid Appdata:
+Beispiel für Unraid Appdata:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/platoboos/SPM-EPG-Manager/main/spm-production-installer/install.sh | \
@@ -127,10 +127,10 @@ http://HOST-IP:8099
 
 Dann:
 
-1. `Nur pruefen`
+1. `Nur prüfen`
 2. Report kontrollieren
 3. `In SPM speichern`
 
-## Oeffentliche Vorlage
+## Öffentliche Vorlage
 
-Fuer andere Nutzer besser die bereinigte EasyEPG-Vorlage aus diesem Repository verwenden oder eigene private Settings selbst bereitstellen. Eine originale EasyEPG `settings.json` sollte vor einer Veroeffentlichung auf Sessions, Cookies und private XMLTV-URLs geprueft werden.
+Für andere Nutzer besser die bereinigte EasyEPG-Vorlage aus diesem Repository verwenden oder eigene private Settings selbst bereitstellen. Eine originale EasyEPG `settings.json` sollte vor einer Veröffentlichung auf Sessions, Cookies und private XMLTV-URLs geprüft werden.

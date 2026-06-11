@@ -2,7 +2,7 @@
 
 Dieses Projekt setzt TVG-IDs in Stalker Portal Manager anhand einer zentralen Rytec-Aliasliste.
 
-## Start fuer Anfaenger
+## Start für Anfänger
 
 Bitte zuerst diese Anleitung lesen:
 
@@ -10,7 +10,7 @@ Bitte zuerst diese Anleitung lesen:
 ANLEITUNG_FUER_ANFAENGER.md
 ```
 
-Fuer spaetere automatische Ausfuehrung ausserhalb des Containers:
+Für spätere automatische Ausführung ausserhalb des Containers:
 
 ```text
 AUTOMATISIERUNG.md
@@ -19,7 +19,7 @@ AUTOMATISIERUNG.md
 Die kurze Regel lautet:
 
 1. Erst `DRY_RUN: true` laufen lassen.
-2. Reports pruefen.
+2. Reports prüfen.
 3. Nur wenn alles plausibel ist, `DRY_RUN: false` setzen.
 4. Nach dem Apply wieder auf `DRY_RUN: true` stellen.
 
@@ -35,27 +35,27 @@ Die kurze Regel lautet:
 ## Dateien
 
 - `config/spm_tvg_aliases_master.json`: Master-Liste normalisierter Sendernamen zu Rytec/XMLTV-IDs.
-- `browser/spm_auto_tvg_mapper.browser.js`: Browser-Console-Script fuer SPM.
-- `run_dry_run.cmd`: Einfacher Windows-Starter fuer den externen Dry-Run.
-- `run_apply.cmd`: Einfacher Windows-Starter fuer den externen Apply-Lauf mit Bestaetigung.
-- `run_dry_run.sh`: Linux/Proxmox-Starter fuer den externen Dry-Run.
-- `run_apply.sh`: Linux/Proxmox-Starter fuer den externen Apply-Lauf mit Bestaetigung.
+- `browser/spm_auto_tvg_mapper.browser.js`: Browser-Console-Script für SPM.
+- `run_dry_run.cmd`: Einfacher Windows-Starter für den externen Dry-Run.
+- `run_apply.cmd`: Einfacher Windows-Starter für den externen Apply-Lauf mit Bestätigung.
+- `run_dry_run.sh`: Linux/Proxmox-Starter für den externen Dry-Run.
+- `run_apply.sh`: Linux/Proxmox-Starter für den externen Apply-Lauf mit Bestätigung.
 - `deploy_to_linux.cmd`: Kopiert das Projekt von Windows per SSH/SCP nach Proxmox/Linux.
 - `Dockerfile`: Container-Variante mit WebUI.
-- `docker-compose.web.example.yml`: Compose-Vorlage fuer die WebUI-Container-Variante.
-- `DOCKER_WEBUI.md`: Anleitung fuer die Docker-WebUI.
-- `tools/run_spm_tvg_mapper.mjs`: Externer Node-Runner fuer update-sichere Automatisierung ausserhalb des Containers.
-- `tools/rebuild_browser_mapper.mjs`: Uebernimmt Aenderungen aus der Master-Aliasliste ins Browser-Script.
+- `docker-compose.web.example.yml`: Compose-Vorlage für die WebUI-Container-Variante.
+- `DOCKER_WEBUI.md`: Anleitung für die Docker-WebUI.
+- `tools/run_spm_tvg_mapper.mjs`: Externer Node-Runner für update-sichere Automatisierung ausserhalb des Containers.
+- `tools/rebuild_browser_mapper.mjs`: Übernimmt Änderungen aus der Master-Aliasliste ins Browser-Script.
 - `LOGIN_ERMITTELN.md`: Anleitung zum Ermitteln des SPM-Login-Requests.
-- `PROXMOX_INSTALLATION.md`: Anleitung fuer Betrieb auf Proxmox/Linux ausserhalb des Containers.
-- `reports/`: Platz fuer heruntergeladene Reports, M3U-Pruefungen und Zusammenfassungen.
+- `PROXMOX_INSTALLATION.md`: Anleitung für Betrieb auf Proxmox/Linux ausserhalb des Containers.
+- `reports/`: Platz für heruntergeladene Reports, M3U-Prüfungen und Zusammenfassungen.
 
 ## Arbeitsweise
 
 1. In SPM einloggen.
-2. M3U Editor oeffnen.
-3. `browser/spm_auto_tvg_mapper.browser.js` komplett in die Browser-Konsole einfuegen.
-4. Erst mit `DRY_RUN: true` laufen lassen und Report pruefen.
+2. M3U Editor öffnen.
+3. `browser/spm_auto_tvg_mapper.browser.js` komplett in die Browser-Konsole einfügen.
+4. Erst mit `DRY_RUN: true` laufen lassen und Report prüfen.
 5. Wenn es passt, im Script `DRY_RUN: false` setzen und erneut laufen lassen.
 6. Nach einem Apply-Lauf das Script wieder auf `DRY_RUN: true` setzen.
 
@@ -86,7 +86,7 @@ http://DEINE-SPM-IP:8000/proxy/custom/204TV_tv_spm.m3u
 http://DEINE-SPM-IP:8000/proxy/custom/Sky4K_tv_spm.m3u
 ```
 
-Die normale Portal-M3U ohne Custom-Profil bleibt unveraendert:
+Die normale Portal-M3U ohne Custom-Profil bleibt unverändert:
 
 ```text
 http://DEINE-SPM-IP:8000/proxy/<PortalName>_tv.m3u
@@ -95,15 +95,15 @@ http://DEINE-SPM-IP:8000/proxy/<PortalName>_tv.m3u
 ## Neue Portale
 
 - Portal in SPM anlegen und Playlist einmal laden lassen.
-- Mapper mit `DRY_RUN: true` und `APPLY_ALL_PORTALS: true` ausfuehren.
-- Report pruefen.
-- Wenn die Treffer plausibel sind, `DRY_RUN: false` setzen und erneut ausfuehren.
-- Das Script legt das Profil `spm` fuer das neue Portal automatisch an.
+- Mapper mit `DRY_RUN: true` und `APPLY_ALL_PORTALS: true` ausführen.
+- Report prüfen.
+- Wenn die Treffer plausibel sind, `DRY_RUN: false` setzen und erneut ausführen.
+- Das Script legt das Profil `spm` für das neue Portal automatisch an.
 - Danach die Custom-M3U in TiviMate/E-Channelizer verwenden.
 
 ## Fehlende Sender
 
-Fehlende Sender stehen im heruntergeladenen Report unter `unmatched`. Den normalisierten Key einmal in `config/spm_tvg_aliases_master.json` ergaenzen und danach das Browser-Script neu erzeugen:
+Fehlende Sender stehen im heruntergeladenen Report unter `unmatched`. Den normalisierten Key einmal in `config/spm_tvg_aliases_master.json` ergänzen und danach das Browser-Script neu erzeugen:
 
 ```powershell
 node .\tools\rebuild_browser_mapper.mjs
@@ -132,10 +132,10 @@ Diese IDs stammen aus dem Apply-Report vom 18.05.2026:
 ## Sicherer Wiederholungsablauf
 
 1. Script auf `DRY_RUN: true` lassen.
-2. In SPM einloggen und M3U Editor oeffnen.
-3. Komplettes Browser-Script in der Konsole ausfuehren.
+2. In SPM einloggen und M3U Editor öffnen.
+3. Komplettes Browser-Script in der Konsole ausführen.
 4. Reports in `reports/` ablegen.
-5. Treffer und auffaellige Sender pruefen.
-6. Nur wenn alles plausibel ist: `DRY_RUN: false` setzen und nochmal ausfuehren.
+5. Treffer und auffällige Sender prüfen.
+6. Nur wenn alles plausibel ist: `DRY_RUN: false` setzen und nochmal ausführen.
 7. Reports wieder sichern.
-8. Script zurueck auf `DRY_RUN: true` setzen.
+8. Script zurück auf `DRY_RUN: true` setzen.

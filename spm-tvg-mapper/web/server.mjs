@@ -67,7 +67,7 @@ async function latestSummary() {
 
 function runMapper(mode) {
   if (running) {
-    return { error: 'Es laeuft bereits ein Job.' };
+    return { error: 'Es läuft bereits ein Job.' };
   }
 
   const args = [
@@ -152,11 +152,11 @@ const page = `<!doctype html>
       <h2>Steuerung</h2>
       <div class="toolbar">
         <div class="actions">
-          <button class="primary" onclick="run('dry-run')">Nur pruefen</button>
+          <button class="primary" onclick="run('dry-run')">Nur prüfen</button>
           <button class="warn" onclick="confirmApply()">In SPM speichern</button>
           <button onclick="loadAll()">Ansicht aktualisieren</button>
         </div>
-        <div class="muted">Erst pruefen, dann speichern. Beim Pruefen wird nichts in SPM geaendert.</div>
+        <div class="muted">Erst prüfen, dann speichern. Beim Prüfen wird nichts in SPM geändert.</div>
       </div>
       <div id="status" class="status">Bereit.</div>
     </section>
@@ -180,7 +180,7 @@ const page = `<!doctype html>
     <section>
       <details>
       <summary>Konfiguration</summary>
-      <p class="muted">Passwoerter gehoeren in Docker-Umgebungsvariablen, nicht in diese JSON-Datei.</p>
+      <p class="muted">Passwörter gehören in Docker-Umgebungsvariablen, nicht in diese JSON-Datei.</p>
       <textarea id="config"></textarea>
       <div class="actions">
         <button onclick="saveConfig()">Config speichern</button>
@@ -191,7 +191,7 @@ const page = `<!doctype html>
     <section>
       <h2>Reports</h2>
       <table>
-        <thead><tr><th>Datei</th><th>Geaendert</th><th>Groesse</th><th></th></tr></thead>
+        <thead><tr><th>Datei</th><th>Geändert</th><th>Größe</th><th></th></tr></thead>
         <tbody id="reports"></tbody>
       </table>
     </section>
@@ -212,7 +212,7 @@ const page = `<!doctype html>
       renderState(state);
       const reports = await api('/api/reports');
       document.getElementById('reports').innerHTML = reports.map(r =>
-        '<tr><td>' + r.name + '</td><td>' + r.modified + '</td><td>' + r.size + '</td><td><button onclick="openReport(\\'' + r.name + '\\')">Oeffnen</button></td></tr>'
+        '<tr><td>' + r.name + '</td><td>' + r.modified + '</td><td>' + r.size + '</td><td><button onclick="openReport(\\'' + r.name + '\\')">Öffnen</button></td></tr>'
       ).join('');
       const summary = await api('/api/summary');
       renderSummary(summary);
@@ -229,10 +229,10 @@ const page = `<!doctype html>
       const status = document.getElementById('status');
       const output = document.getElementById('output');
       const latest = state.running || state.history[0];
-      status.textContent = state.running ? 'Job laeuft: ' + state.running.mode : 'Bereit.';
+      status.textContent = state.running ? 'Job läuft: ' + state.running.mode : 'Bereit.';
       output.textContent = latest ? latest.output : '';
       document.querySelectorAll('button').forEach(button => {
-        if (button.textContent.includes('pruefen') || button.textContent.includes('speichern')) button.disabled = !!state.running;
+        if (button.textContent.includes('prüfen') || button.textContent.includes('speichern')) button.disabled = !!state.running;
       });
     }
     async function saveConfig() {
@@ -246,7 +246,7 @@ const page = `<!doctype html>
       poll();
     }
     function confirmApply() {
-      if (confirm('TVG-IDs werden jetzt in SPM gespeichert. Vorher sollte "Nur pruefen" erfolgreich gewesen sein. Fortfahren?')) run('apply');
+      if (confirm('TVG-IDs werden jetzt in SPM gespeichert. Vorher sollte "Nur prüfen" erfolgreich gewesen sein. Fortfahren?')) run('apply');
     }
     async function openReport(name) {
       const report = await api('/api/reports/' + encodeURIComponent(name));
@@ -282,7 +282,7 @@ async function handle(req, res) {
   }
   if (req.method === 'POST' && url.pathname === '/api/run') {
     const body = JSON.parse(await readBody(req));
-    if (!['dry-run', 'apply'].includes(body.mode)) return send(res, 400, { error: 'Ungueltiger Modus.' });
+    if (!['dry-run', 'apply'].includes(body.mode)) return send(res, 400, { error: 'Ungültiger Modus.' });
     const result = runMapper(body.mode);
     if (result.error) return send(res, 409, result);
     return send(res, 200, result);
@@ -290,7 +290,7 @@ async function handle(req, res) {
   if (req.method === 'GET' && url.pathname === '/api/reports') return send(res, 200, await listReports());
   if (req.method === 'GET' && url.pathname.startsWith('/api/reports/')) {
     const name = decodeURIComponent(url.pathname.replace('/api/reports/', ''));
-    if (name.includes('/') || name.includes('\\')) return send(res, 400, { error: 'Ungueltiger Dateiname.' });
+    if (name.includes('/') || name.includes('\\')) return send(res, 400, { error: 'Ungültiger Dateiname.' });
     const full = path.join(REPORTS_DIR, name);
     const text = await fs.readFile(full, 'utf8');
     try { return send(res, 200, JSON.parse(text)); } catch { return send(res, 200, text, 'text/plain; charset=utf-8'); }

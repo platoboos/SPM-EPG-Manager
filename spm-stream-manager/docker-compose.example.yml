@@ -1,0 +1,14 @@
+services:
+  spm-stream-manager:
+    build: .
+    container_name: spm-stream-manager
+    restart: unless-stopped
+    ports:
+      - "8100:8100"
+    environment:
+      - WEB_PORT=8100
+      - SPM_BASE_URL=${SPM_BASE_URL}
+      - SPM_USERNAME=${SPM_USERNAME}
+      - SPM_PASSWORD=${SPM_PASSWORD}
+      - ACTIVE_WINDOW_MINUTES=${ACTIVE_WINDOW_MINUTES:-180}
+      - ACTIVE_GROUP_BY=${ACTIVE_GROUP_BY:-viewer}

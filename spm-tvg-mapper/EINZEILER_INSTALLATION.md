@@ -1,6 +1,6 @@
 # Einzeiler Installation
 
-Diese Variante ist fuer einen Host gedacht, auf dem der Ordner `spm-tvg-mapper` schon liegt, zum Beispiel unter:
+Diese Variante ist für einen Host gedacht, auf dem der Ordner `spm-tvg-mapper` schon liegt, zum Beispiel unter:
 
 ```bash
 /opt/spm-tvg-mapper
@@ -10,7 +10,7 @@ Der Installer richtet die Docker-WebUI ein, schreibt die Zugangsdaten in `.env` 
 
 ## Empfohlener Einzeiler
 
-Auf dem Host ausfuehren:
+Auf dem Host ausführen:
 
 ```bash
 cd /opt/spm-tvg-mapper && chmod +x install_webui.sh && ./install_webui.sh
@@ -22,7 +22,7 @@ Danach fragt das Script ab:
 - SPM Benutzername
 - SPM Passwort
 
-## Komplett ohne Rueckfragen
+## Komplett ohne Rückfragen
 
 Nur verwenden, wenn niemand in die Shell-History schauen kann. Das Passwort steht sonst in der History.
 
@@ -32,7 +32,7 @@ cd /opt/spm-tvg-mapper && chmod +x install_webui.sh && SPM_BASE_URL="http://DEIN
 
 ## Danach
 
-Im Browser oeffnen:
+Im Browser öffnen:
 
 ```text
 http://HOST-IP:8099
@@ -40,7 +40,7 @@ http://HOST-IP:8099
 
 Dann:
 
-1. Erst `Nur pruefen`.
+1. Erst `Nur prüfen`.
 2. Ausgabe kontrollieren.
 3. Wenn alles passt: `In SPM speichern`.
 

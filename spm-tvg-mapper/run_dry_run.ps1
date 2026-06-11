@@ -37,12 +37,12 @@ Write-Host "SPM EPG Manager - DRY-RUN" -ForegroundColor Cyan
 Write-Host "Es wird nichts in SPM gespeichert."
 if ($env:SPM_COOKIE) {
   if ($env:SPM_USERNAME -and $env:SPM_PASSWORD) {
-    Write-Host "Anmeldung: Benutzer/Passwort ueber SPM Login-API; vorhandener SPM_COOKIE wird ignoriert"
+    Write-Host "Anmeldung: Benutzer/Passwort über SPM Login-API; vorhandener SPM_COOKIE wird ignoriert"
   } else {
     Write-Host "Anmeldung: vorhandener SPM_COOKIE"
   }
 } else {
-  Write-Host "Anmeldung: Benutzer/Passwort ueber SPM Login-API"
+  Write-Host "Anmeldung: Benutzer/Passwort über SPM Login-API"
 }
 Write-Host ""
 

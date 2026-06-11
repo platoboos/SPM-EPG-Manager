@@ -324,7 +324,7 @@ async function main() {
       await fs.writeFile(path.join(reportsDir, reportName), JSON.stringify({ summary: row, matched: result.matched, unmatched: result.unmatched, payload: result.payload }, null, 2));
 
       if (!dryRunMode) {
-        if (!profileInfo.id) throw new Error(`Portal ${portalId}: Speichern ohne profile_id nicht moeglich.`);
+        if (!profileInfo.id) throw new Error(`Portal ${portalId}: Speichern ohne profile_id nicht möglich.`);
         await fetchJson('/api/m3u-editor/save', { method: 'POST', body: JSON.stringify(result.payload) });
         console.log(`[SPM TVG] Portal ${portalId}: gespeichert.`);
       } else {

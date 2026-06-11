@@ -35,12 +35,12 @@ Write-Host "Dieser Lauf speichert TVG-IDs im Test-SPM."
 Write-Host "Vorher sollte ein Dry-Run erfolgreich gewesen sein."
 if ($env:SPM_COOKIE) {
   if ($env:SPM_USERNAME -and $env:SPM_PASSWORD) {
-    Write-Host "Anmeldung: Benutzer/Passwort ueber SPM Login-API; vorhandener SPM_COOKIE wird ignoriert"
+    Write-Host "Anmeldung: Benutzer/Passwort über SPM Login-API; vorhandener SPM_COOKIE wird ignoriert"
   } else {
     Write-Host "Anmeldung: vorhandener SPM_COOKIE"
   }
 } else {
-  Write-Host "Anmeldung: Benutzer/Passwort ueber SPM Login-API"
+  Write-Host "Anmeldung: Benutzer/Passwort über SPM Login-API"
 }
 Write-Host ""
 $Confirm = Read-Host "Zum Speichern bitte APPLY eintippen"

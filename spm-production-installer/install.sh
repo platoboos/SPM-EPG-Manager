@@ -84,10 +84,15 @@ install_mapper() {
   say "Entpacke Mapper-Paket..."
   tar -xzf "$archive" -C "$extract"
 
-  first_dir="$(find "$extract" -mindepth 1 -maxdepth 1 -type d | head -n 1)"
-  if [ -z "$first_dir" ]; then
-    say "Archiv enthaelt keinen Projektordner."
+  root_dir="$(find "$extract" -mindepth 1 -maxdepth 1 -type d | head -n 1)"
+  if [ -z "$root_dir" ]; then
+    say "Archiv enthält keinen Projektordner."
     exit 1
+  fi
+  if [ -d "$root_dir/spm-tvg-mapper" ]; then
+    first_dir="$root_dir/spm-tvg-mapper"
+  else
+    first_dir="$root_dir"
   fi
 
   mkdir -p "$INSTALL_DIR"
@@ -218,7 +223,7 @@ main() {
   say ""
   say "Fertig."
   say "Mapper-WebUI: http://${host_ip:-HOST-IP}:$WEB_PORT"
-  say "Naechster Schritt: Im Browser 'Nur pruefen' starten."
+  say "Nächster Schritt: Im Browser 'Nur prüfen' starten."
 }
 
 main "$@"

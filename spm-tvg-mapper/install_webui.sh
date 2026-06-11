@@ -16,7 +16,7 @@ say() {
 need_cmd() {
   if ! command -v "$1" >/dev/null 2>&1; then
     say "Fehlt: $1"
-    say "Bitte zuerst installieren oder auf einem Host mit Docker ausfuehren."
+    say "Bitte zuerst installieren oder auf einem Host mit Docker ausführen."
     exit 1
   fi
 }
@@ -58,7 +58,7 @@ prompt_if_empty SPM_USERNAME "SPM Benutzername"
 prompt_if_empty SPM_PASSWORD "SPM Passwort"
 
 if [ -z "$SPM_BASE_URL" ] || [ -z "$SPM_USERNAME" ] || [ -z "$SPM_PASSWORD" ]; then
-  say "Abbruch: SPM_BASE_URL, SPM_USERNAME und SPM_PASSWORD muessen gesetzt sein."
+  say "Abbruch: SPM_BASE_URL, SPM_USERNAME und SPM_PASSWORD müssen gesetzt sein."
   exit 1
 fi
 

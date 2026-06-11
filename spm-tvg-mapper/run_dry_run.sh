@@ -33,7 +33,7 @@ echo ""
 echo "SPM EPG Manager - DRY-RUN"
 echo "Es wird nichts in SPM gespeichert."
 if [ -n "${SPM_USERNAME:-}" ] && [ -n "${SPM_PASSWORD:-}" ]; then
-  echo "Anmeldung: Benutzer/Passwort ueber SPM Login-API"
+  echo "Anmeldung: Benutzer/Passwort über SPM Login-API"
 elif [ -n "${SPM_COOKIE:-}" ]; then
   echo "Anmeldung: vorhandener SPM_COOKIE"
 fi

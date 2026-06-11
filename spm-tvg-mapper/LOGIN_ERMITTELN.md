@@ -1,8 +1,8 @@
-# SPM Login fuer automatische Anmeldung ermitteln
+# SPM Login für automatische Anmeldung ermitteln
 
 Aktuell funktioniert der externe Runner mit `SPM_COOKIE`.
 
-Damit er sich spaeter selbst anmelden kann, muessen wir einmal herausfinden, wie SPM den Login technisch macht.
+Damit er sich später selbst anmelden kann, müssen wir einmal herausfinden, wie SPM den Login technisch macht.
 
 ## Wichtig
 
@@ -13,12 +13,12 @@ Wir brauchen nur die technischen Namen:
 - Login-URL
 - Methode: `POST` oder etwas anderes
 - Content-Type: `json` oder `form`
-- Feldname fuer Benutzername
-- Feldname fuer Passwort
+- Feldname für Benutzername
+- Feldname für Passwort
 
-## Schritt fuer Schritt
+## Schritt für Schritt
 
-1. SPM im Browser oeffnen:
+1. SPM im Browser öffnen:
 
 ```text
 http://DEINE-SPM-IP:8000
@@ -26,9 +26,9 @@ http://DEINE-SPM-IP:8000
 
 2. Ausloggen, falls du schon eingeloggt bist.
 
-3. `F12` druecken.
+3. `F12` drücken.
 
-4. Tab `Netzwerk` oder `Network` oeffnen.
+4. Tab `Netzwerk` oder `Network` öffnen.
 
 5. Oben den Filter `Fetch/XHR` anklicken, falls vorhanden.
 
@@ -36,7 +36,7 @@ http://DEINE-SPM-IP:8000
 
 7. In der Netzwerk-Liste den Login-Request suchen.
 
-Typische Namen waeren zum Beispiel:
+Typische Namen wären zum Beispiel:
 
 ```text
 /api/login

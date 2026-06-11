@@ -1,19 +1,19 @@
 # SPM EPG Manager - Schnellstart
 
-Diese Anleitung ist fuer einen ersten Test auf einem Docker-Host gedacht.
+Diese Anleitung ist für einen ersten Test auf einem Docker-Host gedacht.
 
-## 1. Vorher pruefen
+## 1. Vorher prüfen
 
 Du brauchst:
 
 - einen laufenden Stalker Portal Manager
 - SPM Benutzername und Passwort
 - Docker und Docker Compose auf dem Host
-- ein laufendes EasyEPG fuer die spaetere EPG-Zuordnung
+- ein laufendes EasyEPG für die spätere EPG-Zuordnung
 
 ## 2. Installation starten
 
-Auf dem Host ausfuehren:
+Auf dem Host ausführen:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/platoboos/SPM-EPG-Manager/main/spm-production-installer/install.sh | MAPPER_ARCHIVE_URL="https://github.com/platoboos/SPM-EPG-Manager/archive/refs/heads/main.tar.gz" sh
@@ -25,7 +25,7 @@ Der Installer fragt nach:
 2. SPM Benutzername
 3. SPM Passwort
 
-## 3. WebUI oeffnen
+## 3. WebUI öffnen
 
 Im Browser:
 
@@ -33,9 +33,21 @@ Im Browser:
 http://HOST-IP:8099
 ```
 
+Für den Stream Manager:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/platoboos/SPM-EPG-Manager/main/spm-stream-installer/install.sh | STREAM_ARCHIVE_URL="https://github.com/platoboos/SPM-EPG-Manager/archive/refs/heads/main.tar.gz" sh
+```
+
+Danach:
+
+```text
+http://HOST-IP:8100
+```
+
 ## 4. Sicherer erster Lauf
 
-1. `Nur pruefen` starten.
+1. `Nur prüfen` starten.
 2. Zusammenfassung ansehen.
 3. Bei plausiblen Treffern `In SPM speichern` starten.
 
@@ -57,4 +69,4 @@ passt zu:
 
 ## 6. Wenn Sender fehlen
 
-Fehlende Treffer sind normal, wenn ein Portal Sender ungewoehnlich benennt. Dann koennen Alias-Regeln im Projekt erweitert und danach erneut geprueft werden.
+Fehlende Treffer sind normal, wenn ein Portal Sender ungewöhnlich benennt. Dann können Alias-Regeln im Projekt erweitert und danach erneut geprüft werden.

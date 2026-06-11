@@ -1,8 +1,8 @@
 ﻿# SPM EPG Manager auf Proxmox/Linux installieren
 
-Diese Anleitung ist fuer den Betrieb ausserhalb des SPM-Containers gedacht.
+Diese Anleitung ist für den Betrieb ausserhalb des SPM-Containers gedacht.
 
-Der SPM-Container bleibt unveraendert. Dadurch bleibt alles update-sicher.
+Der SPM-Container bleibt unverändert. Dadurch bleibt alles update-sicher.
 
 ## Zielordner
 
@@ -21,10 +21,10 @@ Den Ordner `spm-tvg-mapper` auf den Proxmox-/Docker-Host kopieren.
 Wenn du von Windows per SSH auf den Host kommst, kannst du im Projektordner diesen Starter nutzen:
 
 ```powershell
-.\deploy_to_linux.cmd -Target "torsten@ctSTM" -RemoteDir "/opt/spm-tvg-mapper"
+.\deploy_to_linux.cmd -Target "torsten@DEINE-SPM-IP" -RemoteDir "/opt/spm-tvg-mapper"
 ```
 
-Der Starter erstellt ein Archiv, kopiert es per `scp`, entpackt es nach `/opt/spm-tvg-mapper` und setzt die Ausfuehrungsrechte fuer die Linux-Starter.
+Der Starter erstellt ein Archiv, kopiert es per `scp`, entpackt es nach `/opt/spm-tvg-mapper` und setzt die Ausführungsrechte für die Linux-Starter.
 
 Danach auf dem Host:
 
@@ -48,7 +48,7 @@ Danach die Projektdateien dort ablegen.
 
 ## 2. Node.js installieren
 
-Pruefen:
+Prüfen:
 
 ```bash
 node --version
@@ -95,7 +95,7 @@ Danach Rechte einschranken:
 chmod 600 .env.local
 ```
 
-## 5. Config fuer Test oder Produktiv waehlen
+## 5. Config für Test oder Produktiv wählen
 
 Test-SPM:
 
@@ -109,7 +109,7 @@ Produktiv-Vorlage:
 config/spm_targets.prod.example.json
 ```
 
-Fuer Produktiv am besten kopieren:
+Für Produktiv am besten kopieren:
 
 ```bash
 cp config/spm_targets.prod.example.json config/spm_targets.prod.json
@@ -132,7 +132,7 @@ Produktiv-Config:
 SPM_CONFIG=/opt/spm-tvg-mapper/config/spm_targets.prod.json ./run_dry_run.sh
 ```
 
-## 7. Reports pruefen
+## 7. Reports prüfen
 
 Reports liegen hier:
 
@@ -140,7 +140,7 @@ Reports liegen hier:
 /opt/spm-tvg-mapper/reports
 ```
 
-Erst wenn der Dry-Run plausibel ist, Apply ausfuehren.
+Erst wenn der Dry-Run plausibel ist, Apply ausführen.
 
 ## 8. Apply starten
 
@@ -158,7 +158,7 @@ SPM_CONFIG=/opt/spm-tvg-mapper/config/spm_targets.prod.json ./run_apply.sh
 
 Der Apply-Lauf fragt nochmal nach `APPLY`.
 
-## 9. Cron fuer regelmaessigen Dry-Run
+## 9. Cron für regelmäßigen Dry-Run
 
 Cron bearbeiten:
 
@@ -166,7 +166,7 @@ Cron bearbeiten:
 crontab -e
 ```
 
-Beispiel: taeglich um 03:15 Uhr Dry-Run:
+Beispiel: täglich um 03:15 Uhr Dry-Run:
 
 ```cron
 15 3 * * * cd /opt/spm-tvg-mapper && ./run_dry_run.sh >> ./reports/cron_dry_run.log 2>&1
@@ -183,7 +183,7 @@ Produktiv-Dry-Run:
 Ich empfehle:
 
 - Dry-Run automatisch
-- Reports pruefen
+- Reports prüfen
 - Apply bewusst manuell starten
 
 So vermeidest du, dass falsche Zuordnungen automatisch produktiv gespeichert werden.

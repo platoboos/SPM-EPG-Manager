@@ -1,12 +1,12 @@
 ﻿# SPM EPG Manager als Docker-WebUI
 
-Diese Variante ist fuer die einfache Installation neben einem oder mehreren SPM-Containern gedacht.
+Diese Variante ist für die einfache Installation neben einem oder mehreren SPM-Containern gedacht.
 
-Der Mapper laeuft als eigener Container und greift per SPM-Web/API auf die SPM-Container zu.
+Der Mapper läuft als eigener Container und greift per SPM-Web/API auf die SPM-Container zu.
 
 ## Idee
 
-- SPM bleibt unveraendert.
+- SPM bleibt unverändert.
 - Mapper bekommt eine eigene WebUI.
 - Dry-Run und Apply werden per Button gestartet.
 - Reports bleiben in `./reports`.
@@ -39,7 +39,7 @@ SPM_USERNAME=dein_benutzer
 SPM_PASSWORD=dein_passwort
 ```
 
-Config pruefen:
+Config prüfen:
 
 ```bash
 nano config/spm_targets.web.json
@@ -57,7 +57,7 @@ Wichtig:
 docker compose up -d --build
 ```
 
-WebUI oeffnen:
+WebUI öffnen:
 
 ```text
 http://HOST-IP:8099
@@ -66,12 +66,12 @@ http://HOST-IP:8099
 ## Bedienung
 
 1. Erst `Dry-Run starten`.
-2. Ausgabe und Reports pruefen.
+2. Ausgabe und Reports prüfen.
 3. Nur wenn alles plausibel ist: `Apply starten`.
 
 ## Produktiv
 
-Fuer Produktiv kannst du in `config/spm_targets.web.json` mehrere Targets eintragen.
+Für Produktiv kannst du in `config/spm_targets.web.json` mehrere Targets eintragen.
 
 Beispiel:
 
@@ -108,6 +108,6 @@ Die erste Version hat keine eigene WebUI-Anmeldung. Deshalb:
 
 - nur im internen Netz betreiben
 - nicht ins Internet freigeben
-- Port `8099` nicht oeffentlich weiterleiten
+- Port `8099` nicht öffentlich weiterleiten
 
 

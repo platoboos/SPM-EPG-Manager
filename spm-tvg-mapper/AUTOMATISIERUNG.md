@@ -1,18 +1,18 @@
-﻿# SPM EPG Manager automatisch ausfuehren
+﻿# SPM EPG Manager automatisch ausführen
 
 Ziel: Der Mapper soll update-sicher ausserhalb des SPM-Containers laufen.
 
-Der SPM-Container bleibt dabei unveraendert. Das Script spricht SPM nur ueber die Web/API an, genau wie der Browser auch.
+Der SPM-Container bleibt dabei unverändert. Das Script spricht SPM nur über die Web/API an, genau wie der Browser auch.
 
 ## Warum ausserhalb des Containers?
 
-Wenn der SPM-Ersteller den Container aktualisiert, koennen eigene Dateien im Container verloren gehen. Deshalb liegt unser Projekt ausserhalb:
+Wenn der SPM-Ersteller den Container aktualisiert, können eigene Dateien im Container verloren gehen. Deshalb liegt unser Projekt ausserhalb:
 
 ```text
 C:\Users\torst\Documents\New project\spm-tvg-mapper
 ```
 
-Spaeter auf Proxmox waere ein guter Ort zum Beispiel:
+Später auf Proxmox wäre ein guter Ort zum Beispiel:
 
 ```text
 /opt/spm-tvg-mapper
@@ -29,7 +29,7 @@ oder:
 1. Das externe Script ruft die SPM-API auf.
 2. Es liest alle Portale.
 3. Es sucht oder erstellt pro Portal das Profil `spm`.
-4. Es laedt die Senderliste pro Portal.
+4. Es lädt die Senderliste pro Portal.
 5. Es setzt passende `tvg-id` Werte anhand der Aliasliste.
 6. Es schreibt Reports in den Ordner `reports/`.
 7. Nur im Apply-Modus speichert es die Daten in SPM.
@@ -42,7 +42,7 @@ Datei:
 tools/run_spm_tvg_mapper.mjs
 ```
 
-Einfacher fuer Windows sind die Starter-Dateien im Projektordner:
+Einfacher für Windows sind die Starter-Dateien im Projektordner:
 
 ```text
 run_dry_run.ps1
@@ -51,7 +51,7 @@ run_dry_run.cmd
 run_apply.cmd
 ```
 
-Empfohlener Weg fuer den Test-SPM:
+Empfohlener Weg für den Test-SPM:
 
 ```powershell
 .\run_dry_run.cmd
@@ -75,13 +75,13 @@ Apply:
 node .\tools\run_spm_tvg_mapper.mjs --apply
 ```
 
-Der Dry-Run ist der sichere Standard. Ohne Parameter laeuft das Script ebenfalls als Dry-Run.
+Der Dry-Run ist der sichere Standard. Ohne Parameter läuft das Script ebenfalls als Dry-Run.
 
 ## Authentifizierung
 
 Das Browser-Script nutzt automatisch deine aktive SPM-Browser-Sitzung.
 
-Das externe Script braucht dagegen selbst Zugriff auf SPM. Dafuer gibt es zwei Wege:
+Das externe Script braucht dagegen selbst Zugriff auf SPM. Dafür gibt es zwei Wege:
 
 ### Variante A: SPM ist im internen Netz ohne Login erreichbar
 
@@ -89,9 +89,9 @@ Dann reicht die `baseUrl` in der Konfiguration.
 
 ### Variante B: SPM braucht Login/Sitzung
 
-Dann muss das externe Script einen gueltigen Session-Cookie mitsenden.
+Dann muss das externe Script einen gültigen Session-Cookie mitsenden.
 
-Der Runner liest standardmaessig diese Umgebungsvariable:
+Der Runner liest standardmäßig diese Umgebungsvariable:
 
 ```text
 SPM_COOKIE
@@ -104,9 +104,9 @@ $env:SPM_COOKIE = "session=DEIN_COOKIE_WERT"
 .\run_dry_run.cmd
 ```
 
-Wenn SPM eine feste Login-API anbietet, koennen wir spaeter noch Benutzername/Passwort direkt in den Runner einbauen. Dafuer muessen wir einmal den Login-Request aus dem Browser-Netzwerk-Tab kennen.
+Wenn SPM eine feste Login-API anbietet, können wir später noch Benutzername/Passwort direkt in den Runner einbauen. Dafür müssen wir einmal den Login-Request aus dem Browser-Netzwerk-Tab kennen.
 
-Der Runner ist dafuer bereits vorbereitet. Die Anleitung zum Ermitteln der Login-Daten steht hier:
+Der Runner ist dafür bereits vorbereitet. Die Anleitung zum Ermitteln der Login-Daten steht hier:
 
 ```text
 LOGIN_ERMITTELN.md
@@ -114,7 +114,7 @@ LOGIN_ERMITTELN.md
 
 Sobald die Login-URL und Feldnamen bekannt sind, kann `login.enabled` in der Ziel-Konfiguration auf `true` gesetzt werden.
 
-Fuer den Test-SPM ist der Login aktuell so konfiguriert:
+Für den Test-SPM ist der Login aktuell so konfiguriert:
 
 ```text
 URL: /api/auth/login
@@ -124,7 +124,7 @@ Benutzerfeld: username
 Passwortfeld: password
 ```
 
-Damit reicht kuenftig:
+Damit reicht künftig:
 
 ```powershell
 $env:SPM_USERNAME = "dein_benutzer"
@@ -142,7 +142,7 @@ Beispiel:
 config/spm_targets.example.json
 ```
 
-Fuer den Test-SPM gibt es ausserdem:
+Für den Test-SPM gibt es ausserdem:
 
 ```text
 config/spm_targets.test.json
@@ -156,15 +156,15 @@ Wichtig sind:
 | `profileName` | Profilname, normalerweise `spm` |
 | `playlistType` | Normalerweise `tv` |
 | `portalIds` | Optional. Wenn leer oder nicht gesetzt, werden alle Portale bearbeitet |
-| `profileIdByPortalId` | Optionaler Sonderfall fuer feste Profil-IDs |
-| `cookieEnv` | Name der Umgebungsvariable fuer den Session-Cookie |
+| `profileIdByPortalId` | Optionaler Sonderfall für feste Profil-IDs |
+| `cookieEnv` | Name der Umgebungsvariable für den Session-Cookie |
 
 ## Zeitplanung
 
-Automatisch sollte man nicht staendig Apply laufen lassen. Sinnvoll ist:
+Automatisch sollte man nicht ständig Apply laufen lassen. Sinnvoll ist:
 
-- regelmaessig Dry-Run, z. B. taeglich
-- Apply nur bewusst oder nach Pruefung
+- regelmäßig Dry-Run, z. B. täglich
+- Apply nur bewusst oder nach Prüfung
 - Produktiv Apply eher manuell oder sehr kontrolliert
 
 ## Windows Aufgabenplanung
@@ -183,18 +183,18 @@ cd "C:\Users\torst\Documents\New project\spm-tvg-mapper"
 .\run_apply.cmd
 ```
 
-Die `.cmd` Starter umgehen die lokale PowerShell-Script-Sperre nur fuer diesen einzelnen Start.
+Die `.cmd` Starter umgehen die lokale PowerShell-Script-Sperre nur für diesen einzelnen Start.
 
 ## Linux Cron Beispiel
 
-Fuer Linux/Proxmox gibt es eigene Starter:
+Für Linux/Proxmox gibt es eigene Starter:
 
 ```bash
 ./run_dry_run.sh
 ./run_apply.sh
 ```
 
-Die vollstaendige Anleitung steht hier:
+Die vollständige Anleitung steht hier:
 
 ```text
 PROXMOX_INSTALLATION.md
@@ -208,14 +208,14 @@ Dry-Run jede Nacht um 03:15 Uhr:
 
 ## Produktiv-Empfehlung
 
-Fuer produktive SPMs wuerde ich es so machen:
+Für produktive SPMs würde ich es so machen:
 
 1. Projektordner ausserhalb des Containers ablegen.
 2. Konfiguration pro produktivem SPM anlegen.
 3. Erst Dry-Run laufen lassen.
-4. Reports pruefen.
+4. Reports prüfen.
 5. Erst danach Apply.
-6. Apply nicht blind minuetlich oder stuendlich planen.
+6. Apply nicht blind minütlich oder stündlich planen.
 
 ## Wichtig
 

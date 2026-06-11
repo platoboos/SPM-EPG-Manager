@@ -1,5 +1,5 @@
 ﻿// SPM Auto TVG Mapper
-// Nutzung: In SPM einloggen, M3U Editor oeffnen, Browser-Konsole oeffnen, komplettes Script einfuegen.
+// Nutzung: In SPM einloggen, M3U Editor öffnen, Browser-Konsole öffnen, komplettes Script einfügen.
 // Wichtig: /api/m3u-editor/save speichert den kompletten Profilstand. Dieses Script sendet deshalb immer kumulativ.
 
 (async () => {
@@ -1157,8 +1157,8 @@
     "magentasporthd": "MagentaSport",
     "magentasportprogrammubersicht": "MagentaSport",
     "magentasportprogrammubersichthd": "MagentaSport",
-    "magentasportprogrammuebersicht": "MagentaSport",
-    "magentasportprogrammuebersichthd": "MagentaSport",
+    "magentasportprogrammübersicht": "MagentaSport",
+    "magentasportprogrammübersichthd": "MagentaSport",
     "magentasportuhd": "MagentaSport",
     "magentatvinfo": "MagentaTVInfo.de",
     "mainfranken": "tvmainfranken.de",
@@ -2114,6 +2114,6 @@
   console.table(summary);
   alert(CONFIG.DRY_RUN
     ? 'SPM EPG Manager: Testlauf fertig. Report wurde heruntergeladen. Wenn es passt: DRY_RUN auf false setzen.'
-    : 'SPM EPG Manager: TVG-IDs gespeichert. Danach M3U Editor neu laden / Custom Playlist pruefen.');
+    : 'SPM EPG Manager: TVG-IDs gespeichert. Danach M3U Editor neu laden / Custom Playlist prüfen.');
 })();
 

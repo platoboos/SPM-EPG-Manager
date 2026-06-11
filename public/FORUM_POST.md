@@ -2,21 +2,21 @@
 
 ## Titelvorschlag
 
-SPM EPG Manager - TVG-IDs fuer Stalker Portal Manager automatisch setzen
+SPM EPG Manager - TVG-IDs für Stalker Portal Manager automatisch setzen
 
 ## Beitrag
 
-Ich stelle hier den SPM EPG Manager zur Verfuegung.
+Ich stelle hier den SPM EPG Manager zur Verfügung.
 
-Das Tool hilft bei der EPG-Zuordnung, wenn Playlists aus Stalker Portal Manager in TiviMate, E-Channelizer oder aehnlichen Clients genutzt werden. Es traegt bekannte TVG-IDs automatisch in SPM-Profile ein, damit die IDs aus der Playlist zu EasyEPG/XMLTV passen.
+Das Tool hilft bei der EPG-Zuordnung, wenn Playlists aus Stalker Portal Manager in TiviMate, E-Channelizer oder ähnlichen Clients genutzt werden. Es trägt bekannte TVG-IDs automatisch in SPM-Profile ein, damit die IDs aus der Playlist zu EasyEPG/XMLTV passen.
 
 ### Was es macht
 
 - erkennt vorhandene SPM-Portale
 - legt pro Portal bei Bedarf ein Profil `spm` an
-- setzt TVG-IDs fuer bekannte Sendernamen
+- setzt TVG-IDs für bekannte Sendernamen
 - bietet zuerst einen Dry-Run ohne Speichern
-- laeuft als Docker-WebUI neben SPM
+- läuft als Docker-WebUI neben SPM
 
 ### Voraussetzungen
 
@@ -40,7 +40,7 @@ Danach im Browser:
 http://HOST-IP:8099
 ```
 
-Wichtig: Erst `Nur pruefen` laufen lassen. Nur wenn die Treffer plausibel aussehen, `In SPM speichern` ausfuehren.
+Wichtig: Erst `Nur prüfen` laufen lassen. Nur wenn die Treffer plausibel aussehen, `In SPM speichern` ausführen.
 
 ### Hinweis zu EasyEPG
 
@@ -54,4 +54,4 @@ GitHub:
 https://github.com/platoboos/SPM-EPG-Manager
 ```
 
-Rueckmeldungen zu fehlenden Sendernamen oder Alias-Regeln helfen beim Erweitern.
+Rückmeldungen zu fehlenden Sendernamen oder Alias-Regeln helfen beim Erweitern.
